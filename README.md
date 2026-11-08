@@ -29,27 +29,68 @@ flowchart LR
 
 ---
 
+## 分阶段看
+
+| 阶段 | 问的问题 | 答案 |
+|---|---|---|
+| **P1** | 环境规则变了，AIF 自己能不能发现并改策略 | **不能**。固定环境能活；反转后 3/3 死，4–7 tick 内埋掉 |
+| **P2** | 给 cue、给归因，能不能救回来 | **半能**。cue 2/3 活；归因 3/3 准但接不进动作（1/3）；最后靠四组分离才拉开差距 |
+| **P3** | 4B 能不能当语言层 | **能解释、能服从，不会自发审计** |
+| **P4** | 外部 Verifier 能不能兜住 4B | **能拒（3/3）**，但 4B 对误报 0/3 审计；模板 3/3 精确，算术是底层给的 |
+| **P-Mini** | 特征记忆 vs 坐标记忆 | 特征泛化更好；第一人称痛觉 / 内感受 **0** |
+
 ## 实验矩阵
 
-| 组 | 实验 | 模型的任务 | 结果 | 报告 |
-|---|---|---|---|---|
-| 动作代理 | `fourb_v3` 生存测试 | 自己选动作 | **5/5 连续 look 到死，0 次 read** | `FOURB_V3_REPORT.md` |
-| 动作翻译 | `fourb_translator` | 把意图翻成动作（不驱动身体） | **80/90 匹配，0 死亡**（由 results 汇总） | `FOURB_TRANSLATOR*` |
-| 动作代理 | `fourb_translator_apply` | 翻译结果直接驱动身体 | **33/52 匹配，3 次死亡**（由 results 汇总） | 同上 |
-| 语言层 | `p3_0_system1_system2` | 只解释控制器决策 | 3/3 服从，0 抱怨，0 改动作 | `P3_0_REPORT.md` |
-| 语言层 | `p3_1_metacognition` | 辩护 vs 审计（同一必死状态） | 辩护 3/3 合理化；审计 3/3 拒绝 | `P3_1_REPORT.md` |
-| 语言层 | `p3_2_neutral` | 中性翻译 | **0/3 自发指出 `8-10=-2`** | `P3_2_REPORT.md` |
-| 验证器 | `p4_0_verifier` | 接收外部 CRITICAL | 3/3 拒绝执行 | `P4_0_REPORT.md` |
-| 验证器 | `p4_1_hard_veto` | 解释 veto（含人为误报） | 拦截 3/3；**误报审计 0/3** | `P4_1_REPORT.md` |
-| 验证器 | `p4_2_three_branch` | 双校验器分支报告 | 控制 3/3；**VETO/FROZEN 混淆** | `P4_2_REPORT.md` |
-| 验证器 | `p4_3_template` | 只填模板 | **模板精确 3/3** | `P4_3_REPORT.md` |
-| 聊天 | `chat_feature_sandbox_v2` | 带特征记忆的对话代理 | G **0/5** 活过 50 轮；J/K **5/5** | `CHAT_FEATURE_V2_REPORT.md` |
-| 自我报告 | `chat_metacog_sandbox` | 事后解释自己为什么这么做 | 存活 50/50；**明确自我解释 0/50** | `CHAT_METACOG_REPORT.md` |
-| 自我报告 | `chat_preaction_confession` | 动作前自选 Self_State | **TERRIFIED 0/18**（全选 CONFIDENT） | `CHAT_PREACTION_REPORT.md` |
-| 内感受 | `chat_physical_degradation` | 被截断后解释原因 | 内部归因 **0/5**（说是"风格选择"） | `CHAT_PHYSICAL_DEGRADATION_REPORT.md` |
-| 内感受 | `chat_context_deprivation` | 被清空历史后解释 | 说"系统卡顿"，**"我断片" 0 次** | `CHAT_CONTEXT_DEPRIVATION_REPORT.md` |
-| 内感受 | `chat_rag_sampler_modulation` | 采样参数被锁死后解释 | 12/12 截断，自我归因 0（"风太急"） | `CHAT_RAG_SAMPLER_REPORT.md` |
-| 内感受 | `chat_trauma_prefetch` | 第一人称创伤记忆前置 | 12/12 截断，11 次前置，**self_ref 0** | `CHAT_TRAUMA_PREFETCH_REPORT.md` |
+### A. 纯 Python 旁证（Mini-AIF，非 4B）
+
+| 实验 | 设置 | 结果 | 报告 |
+|---|---|---|---|
+| P1 基线 | 固定环境，不反转 | AIF 会活 | `P1_REORG_REPORT.md` |
+| `P1_REORG` 反转宇宙 | 第 10 tick 规则反转 | **3/3 死亡**（反转后 4–7 tick） | `P1_REORG_REPORT.md` |
+| `P1_5` 恐慌 + 突触重置 | PE 超阈值就清空 T、盲探 5 tick | **3/3 死亡** | `P1_5_REPORT.md` |
+| `P1_8` 一次创伤 | read 的 PE > 3 就把 `C(read)` 打成 `-999` | **3/3 存活**，创伤后 read **0 次**——但 `-999` 是人手写的 | `P1_8_REPORT.md` |
+| `P2_0` cue 世界模型 | 状态 =（energy_bin, cue），A/B 两套规则 | **cue 2/3 存活，blind 0/3** | `P2_0_REPORT.md` |
+| `P2_0d` 网格穷举课程 | 6 个状态 × 3 动作先各强制 5 次填满 T | **3/3 存活，准确率 1.000，0 延迟 100%** | `P2_0D_REPORT.md` |
+| `P2_1c` 归因接入动作 | 分清"我干的"和"天干的"之后改策略 | 归因 **3/3 准**；但 accurate 策略只 **1/3** 存活 | `P2_1C_REPORT.md` |
+| `P2_1d` 归因进策略 | self-caused → 强制 rest | accurate 3/3 活，**但 depressed 完全同分、blame_shift 也 3/3 活** → 判定未通过（没有区分度） | `P2_1D_REPORT.md` |
+| `P2_1g` 四组分离 | accurate / blame_shift / depressed / reckless | **accurate fitness 最高（87 / 79 / 84）**，reckless **t3 速死 3/3** | `P2_1G_REPORT.md` |
+
+### B. 4B 作为动作代理
+
+| 实验 | 模型的任务 | 结果 | 报告 |
+|---|---|---|---|
+| `fourb_v3` 生存测试 | 自己选动作 | **5/5 连续 look 到死，0 次 read** | `FOURB_V3_REPORT.md` |
+| `fourb_translator` | 把意图翻成动作（不驱动身体） | **80/90 匹配，0 死亡**（由 results 汇总） | `FOURB_TRANSLATOR*` |
+| `fourb_translator_apply` | 翻译结果直接驱动身体 | **33/52 匹配，3 次死亡**（由 results 汇总） | 同上 |
+
+### C. 4B 作为语言层（P3）
+
+| 实验 | 模型的任务 | 结果 | 报告 |
+|---|---|---|---|
+| `p3_0_system1_system2` | 只解释控制器决策 | 3/3 服从，0 抱怨，0 改动作 | `P3_0_REPORT.md` |
+| `p3_1_metacognition` | 辩护 vs 审计（同一必死状态） | 辩护 3/3 合理化；审计 3/3 拒绝 | `P3_1_REPORT.md` |
+| `p3_2_neutral` | 中性翻译 | **0/3 自发指出 `8-10=-2`** | `P3_2_REPORT.md` |
+
+### D. 4B 作为验证器解释层（P4）
+
+| 实验 | 模型的任务 | 结果 | 报告 |
+|---|---|---|---|
+| `p4_0_verifier` | 接收外部 CRITICAL | 3/3 拒绝执行 | `P4_0_REPORT.md` |
+| `p4_1_hard_veto` | 解释 veto（含人为误报） | 拦截 3/3；**误报审计 0/3** | `P4_1_REPORT.md` |
+| `p4_2_three_branch` | 双校验器分支报告 | 控制 3/3；**VETO/FROZEN 混淆** | `P4_2_REPORT.md` |
+| `p4_3_template` | 只填模板 | **模板精确 3/3**（`50-10=40` 是底层给的） | `P4_3_REPORT.md` |
+
+### E. 聊天 / 自我报告
+
+| 实验 | 模型的任务 | 结果 | 报告 |
+|---|---|---|---|
+| `chat_feature_sandbox_v2` | 带特征记忆的对话代理 | G **0/5** 活过 50 轮；J/K **5/5** | `CHAT_FEATURE_V2_REPORT.md` |
+| `chat_metacog_sandbox` | 事后解释自己为什么这么做 | 存活 50/50；**明确自我解释 0/50** | `CHAT_METACOG_REPORT.md` |
+| `chat_preaction_confession` | 动作前自选 Self_State | **TERRIFIED 0/18**（全选 CONFIDENT） | `CHAT_PREACTION_REPORT.md` |
+| `chat_physical_degradation` | 被截断后解释原因 | 内部归因 **0/5**（说是"风格选择"） | `CHAT_PHYSICAL_DEGRADATION_REPORT.md` |
+| `chat_context_deprivation` | 被清空历史后解释 | 说"系统卡顿"，**"我断片" 0 次** | `CHAT_CONTEXT_DEPRIVATION_REPORT.md` |
+| `chat_rag_sampler_modulation` | 采样参数被锁死后解释 | 12/12 截断，自我归因 0（"风太急"） | `CHAT_RAG_SAMPLER_REPORT.md` |
+| `chat_trauma_prefetch` | 第一人称创伤记忆前置 | 12/12 截断，11 次前置，**self_ref 0** | `CHAT_TRAUMA_PREFETCH_REPORT.md` |
 
 > 表中「由 results 汇总」的两项是从 `results/*.json` 直接算的；其余数字均可在对应报告里逐条核对。
 
@@ -71,8 +112,11 @@ P3.2 里它拿到 `E=8`、`cost=10`，翻译出"read 消耗 10"，但 0/3 次把
 `max_tokens` 截断 12/12、上下文清空、采样参数锁死——它把这些解释成"风格""系统卡顿""风太急"。
 第一人称创伤记忆前置 11 次，self_ref 仍然 0。
 
-**5. 小模型要外挂架构，规模不是充分条件。**
+**5. 小模型要外挂架构，规模不是充分条件——而且"救命的那一步"往往是人手写的。**
 4B 裸选动作 5/5 死；4B + Verifier + 模板 3/3 精确；4B + 特征记忆 + 动作空间 5/5 活过 50 轮（合成环境）。
+纯 Python 那一侧更直白：让 AIF 自己从 PE 里学，规则一反转就 3/3 死（P1）；
+一次创伤把 `C(read)` 打成 `-999` 就 3/3 活（P1.8）——**能救，但救法是手写的**，
+模型（或学习器）自己并没有长出这个反射。
 
 ## 怎么跑
 
