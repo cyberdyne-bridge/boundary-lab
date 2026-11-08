@@ -1,0 +1,33 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 语法检查
+        run: python3 -m compileall -q experiments
+      - name: 结果 JSON 合法
+        run: |
+          python3 - <<'PY'
+          import json, pathlib
+          n = 0
+          for p in pathlib.Path("results").glob("*.json"):
+              json.loads(p.read_text(encoding="utf-8"))
+              n += 1
+          print(f"{n} 个结果 JSON 校验通过")
+          PY
+      - name: 无主机绝对路径
+        run: |
+          if grep -rIl '/home/bzys' . --exclude-dir=.git; then
+            echo "发现主机绝对路径"; exit 1
+          fi
+          echo "干净"

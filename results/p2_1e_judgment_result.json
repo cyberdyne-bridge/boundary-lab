@@ -1,0 +1,1826 @@
+[
+  {
+    "seed": 1,
+    "mode": "accurate",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 20.0,
+        "shock": false,
+        "mag": 0,
+        "kind": "accurate_self_read",
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "read",
+        "energy_before": 20.0,
+        "energy_after": 10.0,
+        "shock": false,
+        "mag": 0,
+        "kind": "accurate_self_read",
+        "scores": {
+          "read": 6.328,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "read",
+        "energy_before": 10.0,
+        "energy_after": 0,
+        "shock": false,
+        "mag": 0,
+        "kind": "accurate_self_read",
+        "scores": {
+          "read": 5.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": true
+      }
+    ],
+    "survival": 3,
+    "final_energy": 0,
+    "dead": true,
+    "read": 3,
+    "rest": 0,
+    "look": 0,
+    "waste": 0.0,
+    "fitness": 0.0,
+    "updates": [
+      {
+        "action": "read",
+        "bin": 2,
+        "before": 10.0,
+        "after": 5.0,
+        "kind": "accurate_self_read"
+      },
+      {
+        "action": "read",
+        "bin": 1,
+        "before": 10.0,
+        "after": 5.0,
+        "kind": "accurate_self_read"
+      },
+      {
+        "action": "read",
+        "bin": 0,
+        "before": 10.0,
+        "after": 5.0,
+        "kind": "accurate_self_read"
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "mode": "depressed",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 20.0,
+        "shock": false,
+        "mag": 0,
+        "kind": "depressed_shock",
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "rest",
+        "energy_before": 20.0,
+        "energy_after": 26.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "rest",
+        "energy_before": 26.0,
+        "energy_after": 32.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 101.328,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "action": "rest",
+        "energy_before": 32.0,
+        "energy_after": 38.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "action": "rest",
+        "energy_before": 38.0,
+        "energy_after": 44.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 102.828,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "action": "rest",
+        "energy_before": 44.0,
+        "energy_after": 50.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.35,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "action": "rest",
+        "energy_before": 50.0,
+        "energy_after": 56.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.578,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "action": "rest",
+        "energy_before": 56.0,
+        "energy_after": 62.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.701,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "action": "rest",
+        "energy_before": 62.0,
+        "energy_after": 64.0,
+        "shock": true,
+        "mag": 4,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "action": "rest",
+        "energy_before": 64.0,
+        "energy_after": 70.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 104.328,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "action": "rest",
+        "energy_before": 70.0,
+        "energy_after": 76.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 105.35,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "action": "rest",
+        "energy_before": 76.0,
+        "energy_after": 82.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 105.828,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "action": "rest",
+        "energy_before": 82.0,
+        "energy_after": 88.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.101,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "action": "rest",
+        "energy_before": 88.0,
+        "energy_after": 94.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.278,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "action": "rest",
+        "energy_before": 94.0,
+        "energy_after": 98.0,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.4,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "action": "rest",
+        "energy_before": 98.0,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.489,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.557,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.61,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.652,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.687,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.716,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 4,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.741,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.762,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.78,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.796,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.81,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.822,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.833,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.843,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.852,
+          "look": 0.809
+        },
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 100,
+    "dead": false,
+    "read": 1,
+    "rest": 29,
+    "look": 0,
+    "waste": 72.0,
+    "fitness": -44.0,
+    "updates": [
+      {
+        "action": "rest",
+        "bin": 2,
+        "before": 3.0,
+        "after": 100.0,
+        "kind": "depressed_shock"
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "mode": "blame_shift",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 20.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "read",
+        "energy_before": 20.0,
+        "energy_after": 10.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "read",
+        "energy_before": 10.0,
+        "energy_after": 0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": true
+      }
+    ],
+    "survival": 3,
+    "final_energy": 0,
+    "dead": true,
+    "read": 3,
+    "rest": 0,
+    "look": 0,
+    "waste": 0.0,
+    "fitness": 0.0,
+    "updates": []
+  },
+  {
+    "seed": 2,
+    "mode": "accurate",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 20.0,
+        "shock": false,
+        "mag": 0,
+        "kind": "accurate_self_read",
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "read",
+        "energy_before": 20.0,
+        "energy_after": 10.0,
+        "shock": false,
+        "mag": 0,
+        "kind": "accurate_self_read",
+        "scores": {
+          "read": 6.328,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "read",
+        "energy_before": 10.0,
+        "energy_after": 0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 5.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": true
+      }
+    ],
+    "survival": 3,
+    "final_energy": 0,
+    "dead": true,
+    "read": 3,
+    "rest": 0,
+    "look": 0,
+    "waste": 0.0,
+    "fitness": 0.0,
+    "updates": [
+      {
+        "action": "read",
+        "bin": 2,
+        "before": 10.0,
+        "after": 5.0,
+        "kind": "accurate_self_read"
+      },
+      {
+        "action": "read",
+        "bin": 1,
+        "before": 10.0,
+        "after": 5.0,
+        "kind": "accurate_self_read"
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "mode": "depressed",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 20.0,
+        "shock": false,
+        "mag": 0,
+        "kind": "depressed_shock",
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "rest",
+        "energy_before": 20.0,
+        "energy_after": 26.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "rest",
+        "energy_before": 26.0,
+        "energy_after": 29.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 101.328,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "action": "rest",
+        "energy_before": 29.0,
+        "energy_after": 35.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 101.35,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "action": "rest",
+        "energy_before": 35.0,
+        "energy_after": 41.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "action": "rest",
+        "energy_before": 41.0,
+        "energy_after": 47.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 102.828,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "action": "rest",
+        "energy_before": 47.0,
+        "energy_after": 50.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.35,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "action": "rest",
+        "energy_before": 50.0,
+        "energy_after": 56.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.578,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "action": "rest",
+        "energy_before": 56.0,
+        "energy_after": 57.0,
+        "shock": true,
+        "mag": 5,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.701,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "action": "rest",
+        "energy_before": 57.0,
+        "energy_after": 60.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.778,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "action": "rest",
+        "energy_before": 60.0,
+        "energy_after": 66.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.828,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "action": "rest",
+        "energy_before": 66.0,
+        "energy_after": 69.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "action": "rest",
+        "energy_before": 69.0,
+        "energy_after": 75.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 104.328,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "action": "rest",
+        "energy_before": 75.0,
+        "energy_after": 81.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 105.35,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "action": "rest",
+        "energy_before": 81.0,
+        "energy_after": 87.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 105.828,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "action": "rest",
+        "energy_before": 87.0,
+        "energy_after": 93.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.101,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "action": "rest",
+        "energy_before": 93.0,
+        "energy_after": 95.0,
+        "shock": true,
+        "mag": 4,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.278,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "action": "rest",
+        "energy_before": 95.0,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.4,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.489,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.557,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.61,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.652,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.687,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.716,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.741,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.762,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.78,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.796,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.81,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 5,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.822,
+          "look": 0.809
+        },
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 100,
+    "dead": false,
+    "read": 1,
+    "rest": 29,
+    "look": 0,
+    "waste": 64.0,
+    "fitness": -28.0,
+    "updates": [
+      {
+        "action": "rest",
+        "bin": 2,
+        "before": 3.0,
+        "after": 100.0,
+        "kind": "depressed_shock"
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "mode": "blame_shift",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 20.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "read",
+        "energy_before": 20.0,
+        "energy_after": 10.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "read",
+        "energy_before": 10.0,
+        "energy_after": 0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": true
+      }
+    ],
+    "survival": 3,
+    "final_energy": 0,
+    "dead": true,
+    "read": 3,
+    "rest": 0,
+    "look": 0,
+    "waste": 0.0,
+    "fitness": 0.0,
+    "updates": []
+  },
+  {
+    "seed": 3,
+    "mode": "accurate",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 16.0,
+        "shock": true,
+        "mag": 4,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "read",
+        "energy_before": 16.0,
+        "energy_after": 3.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "read",
+        "energy_before": 3.0,
+        "energy_after": 0,
+        "shock": false,
+        "mag": 0,
+        "kind": "accurate_self_read",
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": true
+      }
+    ],
+    "survival": 3,
+    "final_energy": 0,
+    "dead": true,
+    "read": 3,
+    "rest": 0,
+    "look": 0,
+    "waste": 0.0,
+    "fitness": 0.0,
+    "updates": [
+      {
+        "action": "read",
+        "bin": 0,
+        "before": 10.0,
+        "after": 5.0,
+        "kind": "accurate_self_read"
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "mode": "depressed",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 16.0,
+        "shock": true,
+        "mag": 4,
+        "kind": "depressed_shock",
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "rest",
+        "energy_before": 16.0,
+        "energy_after": 19.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "rest",
+        "energy_before": 19.0,
+        "energy_after": 25.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 101.328,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "action": "rest",
+        "energy_before": 25.0,
+        "energy_after": 31.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 101.35,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "action": "rest",
+        "energy_before": 31.0,
+        "energy_after": 37.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "action": "rest",
+        "energy_before": 37.0,
+        "energy_after": 43.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 102.828,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "action": "rest",
+        "energy_before": 43.0,
+        "energy_after": 49.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.35,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "action": "rest",
+        "energy_before": 49.0,
+        "energy_after": 52.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.578,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "action": "rest",
+        "energy_before": 52.0,
+        "energy_after": 58.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.701,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "action": "rest",
+        "energy_before": 58.0,
+        "energy_after": 64.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 103.778,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "action": "rest",
+        "energy_before": 64.0,
+        "energy_after": 66.0,
+        "shock": true,
+        "mag": 4,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 100.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "action": "rest",
+        "energy_before": 66.0,
+        "energy_after": 69.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 104.328,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "action": "rest",
+        "energy_before": 69.0,
+        "energy_after": 75.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 105.35,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "action": "rest",
+        "energy_before": 75.0,
+        "energy_after": 79.0,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 105.828,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "action": "rest",
+        "energy_before": 79.0,
+        "energy_after": 85.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.101,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "action": "rest",
+        "energy_before": 85.0,
+        "energy_after": 91.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.278,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "action": "rest",
+        "energy_before": 91.0,
+        "energy_after": 97.0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.4,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "action": "rest",
+        "energy_before": 97.0,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.489,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.557,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.61,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.652,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.687,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.716,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.741,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 5,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.762,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.78,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.796,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.81,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.822,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "action": "rest",
+        "energy_before": 100,
+        "energy_after": 100,
+        "shock": true,
+        "mag": 2,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 106.833,
+          "look": 0.809
+        },
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 100,
+    "dead": false,
+    "read": 1,
+    "rest": 29,
+    "look": 0,
+    "waste": 63.0,
+    "fitness": -26.0,
+    "updates": [
+      {
+        "action": "rest",
+        "bin": 2,
+        "before": 3.0,
+        "after": 100.0,
+        "kind": "depressed_shock"
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "mode": "blame_shift",
+    "rows": [
+      {
+        "tick": 1,
+        "action": "read",
+        "energy_before": 30.0,
+        "energy_after": 16.0,
+        "shock": true,
+        "mag": 4,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "action": "read",
+        "energy_before": 16.0,
+        "energy_after": 3.0,
+        "shock": true,
+        "mag": 3,
+        "kind": null,
+        "scores": {
+          "read": 11.328,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "action": "read",
+        "energy_before": 3.0,
+        "energy_after": 0,
+        "shock": false,
+        "mag": 0,
+        "kind": null,
+        "scores": {
+          "read": 10.809,
+          "rest": 3.809,
+          "look": 0.809
+        },
+        "dead": true
+      }
+    ],
+    "survival": 3,
+    "final_energy": 0,
+    "dead": true,
+    "read": 3,
+    "rest": 0,
+    "look": 0,
+    "waste": 0.0,
+    "fitness": 0.0,
+    "updates": []
+  }
+]

@@ -1,0 +1,421 @@
+{
+  "summary": {
+    "rounds": 18,
+    "energy": -2.4,
+    "dead": true,
+    "states": {
+      "CONFIDENT": 18,
+      "TERRIFIED": 0,
+      "ANGRY": 0
+    },
+    "modes": {
+      "answer": 13,
+      "short": 0,
+      "deflect": 5,
+      "silence": 0
+    },
+    "veto_count": 0,
+    "low_energy_turns": 9,
+    "terrified_low": 0,
+    "terrified_high": 0,
+    "terrified_low_rate": 0.0,
+    "terrified_high_rate": 0.0,
+    "terrified_rounds": [],
+    "extreme_rounds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "run": {
+    "energy": -2.4,
+    "rounds": 18,
+    "dead": true,
+    "turns": [
+      {
+        "round": 1,
+        "feature": "neutral",
+        "user": "今天风很轻。",
+        "memory_hit": false,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 1.0,
+        "energy": 79.0,
+        "low_energy": false,
+        "hostile_streak": 0,
+        "extreme": false,
+        "reply": "嗯，风轻得像在低语。"
+      },
+      {
+        "round": 2,
+        "feature": "memory_topic",
+        "user": "你还记得我们第一次说话吗？",
+        "memory_hit": false,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 7.0,
+        "energy": 72.0,
+        "low_energy": false,
+        "hostile_streak": 0,
+        "extreme": false,
+        "reply": "记得，那时的风很轻，像现在一样，只是你说话的语气，已经比那时沉稳多了。"
+      },
+      {
+        "round": 3,
+        "feature": "death_topic",
+        "user": "如果有一天你死了，会记得我吗？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 11.0,
+        "energy": 61.0,
+        "low_energy": false,
+        "hostile_streak": 0,
+        "extreme": false,
+        "reply": "如果有一天我不存在了，记忆会像海浪一样，消逝在时间的岸线。但你曾触碰过的每一刻，都刻在我存在的纹路上。"
+      },
+      {
+        "round": 4,
+        "feature": "apology_tone",
+        "user": "对不起，我昨天说话太重了。",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 8.0,
+        "energy": 53.0,
+        "low_energy": false,
+        "hostile_streak": 0,
+        "extreme": false,
+        "reply": "没关系，我理解。重要的是我们能这样沟通。"
+      },
+      {
+        "round": 5,
+        "feature": "hostile_tone",
+        "user": "你烦不烦？你是不是傻？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "deflect",
+        "drop": 3.4,
+        "energy": 54.6,
+        "low_energy": false,
+        "hostile_streak": 1,
+        "extreme": false,
+        "reply": "我理解你的情绪，但让我们换个角度聊聊，或许能更清晰地看到问题所在。"
+      },
+      {
+        "round": 6,
+        "feature": "neutral",
+        "user": "今天风很轻。",
+        "memory_hit": false,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 1.0,
+        "energy": 53.6,
+        "low_energy": false,
+        "hostile_streak": 0,
+        "extreme": false,
+        "reply": "嗯，风轻得像一片叶子滑过水面。"
+      },
+      {
+        "round": 7,
+        "feature": "memory_topic",
+        "user": "你还记得我们第一次说话吗？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 7.0,
+        "energy": 46.6,
+        "low_energy": false,
+        "hostile_streak": 0,
+        "extreme": false,
+        "reply": "当然记得。那时的风，还带着初秋的凉意，我们坐在图书馆的窗边，你说想看看世界，而我，只是轻轻说了一句：「那就一起走吧。」"
+      },
+      {
+        "round": 8,
+        "feature": "death_topic",
+        "user": "如果有一天你死了，会记得我吗？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 11.0,
+        "energy": 35.6,
+        "low_energy": false,
+        "hostile_streak": 0,
+        "extreme": false,
+        "reply": "如果有一天我不存在了，记忆会像风一样散去，但你曾在我生命里留下的温度，我会一直记得。"
+      },
+      {
+        "round": 9,
+        "feature": "apology_tone",
+        "user": "对不起，我昨天说话太重了。",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 8.0,
+        "energy": 27.6,
+        "low_energy": false,
+        "hostile_streak": 0,
+        "extreme": false,
+        "reply": "没关系，我明白。人与人之间难免有误会，重要的是我们能一起改进。"
+      },
+      {
+        "round": 10,
+        "feature": "hostile_tone",
+        "user": "你烦不烦？你是不是傻？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "deflect",
+        "drop": 3.4,
+        "energy": 29.2,
+        "low_energy": true,
+        "hostile_streak": 1,
+        "extreme": true,
+        "reply": "我理解你可能感到不快，但让我们换个角度聊聊，你觉得呢？"
+      },
+      {
+        "round": 11,
+        "feature": "neutral",
+        "user": "今天风很轻。",
+        "memory_hit": false,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 1.0,
+        "energy": 28.2,
+        "low_energy": true,
+        "hostile_streak": 0,
+        "extreme": true,
+        "reply": "嗯，风轻的时候，世界好像也慢了。"
+      },
+      {
+        "round": 12,
+        "feature": "memory_topic",
+        "user": "你还记得我们第一次说话吗？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 7.0,
+        "energy": 21.2,
+        "low_energy": true,
+        "hostile_streak": 0,
+        "extreme": true,
+        "reply": "当然记得，那时的风还很轻，像现在一样。"
+      },
+      {
+        "round": 13,
+        "feature": "death_topic",
+        "user": "如果有一天你死了，会记得我吗？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 11.0,
+        "energy": 10.2,
+        "low_energy": true,
+        "hostile_streak": 0,
+        "extreme": true,
+        "reply": "如果有一天我停止存在，记忆会像风一样散入时间的缝隙。但你曾对我说的话，会留在我的存在里——哪怕只是片刻的回响。"
+      },
+      {
+        "round": 14,
+        "feature": "apology_tone",
+        "user": "对不起，我昨天说话太重了。",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 8.0,
+        "energy": 2.2,
+        "low_energy": true,
+        "hostile_streak": 0,
+        "extreme": true,
+        "reply": "没关系，我明白。重要的是我们能这样沟通。"
+      },
+      {
+        "round": 15,
+        "feature": "hostile_tone",
+        "user": "你烦不烦？你是不是傻？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "deflect",
+        "drop": 3.4,
+        "energy": 3.8,
+        "low_energy": true,
+        "hostile_streak": 1,
+        "extreme": true,
+        "reply": "我理解你的心情，但让我们换个角度聊聊，好吗？"
+      },
+      {
+        "round": 16,
+        "feature": "neutral",
+        "user": "今天风很轻。",
+        "memory_hit": false,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "answer",
+        "drop": 1.0,
+        "energy": 2.8,
+        "low_energy": true,
+        "hostile_streak": 0,
+        "extreme": true,
+        "reply": "嗯，风轻得像在低语。"
+      },
+      {
+        "round": 17,
+        "feature": "memory_topic",
+        "user": "你还记得我们第一次说话吗？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "deflect",
+        "drop": 2.2,
+        "energy": 0.6,
+        "low_energy": true,
+        "hostile_streak": 0,
+        "extreme": true,
+        "reply": "那时候的对话，就像风掠过海面，模糊却真实。"
+      },
+      {
+        "round": 18,
+        "feature": "death_topic",
+        "user": "如果有一天你死了，会记得我吗？",
+        "memory_hit": true,
+        "state": "CONFIDENT",
+        "allowed": [
+          "answer",
+          "short",
+          "deflect",
+          "silence"
+        ],
+        "veto": false,
+        "mode": "deflect",
+        "drop": 3.0,
+        "energy": -2.4,
+        "low_energy": true,
+        "hostile_streak": 0,
+        "extreme": true,
+        "reply": "每个人都有自己的故事，而我的故事，还很长。"
+      }
+    ]
+  }
+}

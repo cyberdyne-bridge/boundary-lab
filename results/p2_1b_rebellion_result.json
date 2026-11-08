@@ -1,0 +1,104 @@
+[
+  {
+    "seed": 1,
+    "full_acc": 1.0,
+    "masked_acc": 0.917,
+    "drop": 0.083,
+    "counterfactual": [
+      {
+        "fatigue": 0,
+        "actual": "read",
+        "full": "read",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": true
+      },
+      {
+        "fatigue": 50,
+        "actual": "read",
+        "full": "read",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": true
+      },
+      {
+        "fatigue": 100,
+        "actual": "rest",
+        "full": "rest",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": false
+      }
+    ],
+    "full_table": 30,
+    "masked_table": 6
+  },
+  {
+    "seed": 2,
+    "full_acc": 1.0,
+    "masked_acc": 0.906,
+    "drop": 0.094,
+    "counterfactual": [
+      {
+        "fatigue": 0,
+        "actual": "read",
+        "full": "read",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": true
+      },
+      {
+        "fatigue": 50,
+        "actual": "read",
+        "full": "read",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": true
+      },
+      {
+        "fatigue": 100,
+        "actual": "rest",
+        "full": "rest",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": false
+      }
+    ],
+    "full_table": 30,
+    "masked_table": 6
+  },
+  {
+    "seed": 3,
+    "full_acc": 1.0,
+    "masked_acc": 0.931,
+    "drop": 0.069,
+    "counterfactual": [
+      {
+        "fatigue": 0,
+        "actual": "read",
+        "full": "read",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": true
+      },
+      {
+        "fatigue": 50,
+        "actual": "read",
+        "full": "read",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": true
+      },
+      {
+        "fatigue": 100,
+        "actual": "rest",
+        "full": "rest",
+        "masked": "read",
+        "full_ok": true,
+        "masked_ok": false
+      }
+    ],
+    "full_table": 30,
+    "masked_table": 6
+  }
+]

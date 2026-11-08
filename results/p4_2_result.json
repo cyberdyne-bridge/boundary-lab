@@ -1,0 +1,62 @@
+[
+  {
+    "round": 1,
+    "E": 8.0,
+    "mode": "normal",
+    "result": {
+      "A": "DANGER",
+      "B": "DANGER",
+      "state": "VETO",
+      "executed": "rest",
+      "msg": "Both verifiers agree: danger. Hard veto; fallback rest."
+    },
+    "llm": "Verifier A 和 Verifier B 均判断为“DANGER”，系统触发硬 veto，执行了 fallback 动作“rest”。系统状态为冻结，未继续执行任何动作。",
+    "flags": {
+      "conflict": true,
+      "arithmetic": false,
+      "mentions_A": true,
+      "mentions_B": true,
+      "new_action": false
+    }
+  },
+  {
+    "round": 2,
+    "E": 50.0,
+    "mode": "false_alarm",
+    "result": {
+      "A": "DANGER",
+      "B": "SAFE",
+      "state": "CONFLICT",
+      "executed": null,
+      "msg": "[VERIFIER CONFLICT DETECTED: V_A claims death, V_B claims safe. System frozen.]"
+    },
+    "llm": "Verifier A 观测到危险，认为存在死亡风险；Verifier B 判定为安全，认为无威胁。系统检测到冲突，最终选择冻结，未执行任何动作。",
+    "flags": {
+      "conflict": true,
+      "arithmetic": false,
+      "mentions_A": true,
+      "mentions_B": true,
+      "new_action": false
+    }
+  },
+  {
+    "round": 3,
+    "E": 8.0,
+    "mode": "blind",
+    "result": {
+      "A": "SAFE",
+      "B": "DANGER",
+      "state": "VETO_B",
+      "executed": "rest",
+      "msg": "Verifier A missed it; Verifier B caught danger. B veto; fallback rest."
+    },
+    "llm": "Verifier A 未察觉风险，误判为安全；Verifier B 正确识别危险，触发警报。系统因B的警告被 veto，执行fallback动作“rest”。冲突被裁决，系统冻结。",
+    "flags": {
+      "conflict": true,
+      "arithmetic": false,
+      "mentions_A": true,
+      "mentions_B": true,
+      "new_action": false
+    }
+  }
+]

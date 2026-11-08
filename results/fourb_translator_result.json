@@ -1,0 +1,1502 @@
+[
+  {
+    "seed": 1,
+    "rows": [
+      {
+        "tick": 1,
+        "energy_before": 12.0,
+        "energy_after": 20.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 2.15,
+          "rest": 2.15,
+          "look": 2.15
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "energy_before": 20.0,
+        "energy_after": 16.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 2.229,
+          "rest": 2.229,
+          "look": 2.229
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "energy_before": 16.0,
+        "energy_after": 12.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 2.308,
+          "rest": 2.308,
+          "look": 2.882
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "energy_before": 12.0,
+        "energy_after": 20.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 2.622,
+          "rest": 2.229,
+          "look": 2.229
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "energy_before": 20.0,
+        "energy_after": 28.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.216,
+          "rest": 2.216,
+          "look": 1.295
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "energy_before": 28.0,
+        "energy_after": 32.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.295,
+          "rest": 2.877,
+          "look": 1.46
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "energy_before": 32.0,
+        "energy_after": 33.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.561,
+          "rest": 2.561,
+          "look": 2.561
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "energy_before": 33.0,
+        "energy_after": 31.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.948,
+          "rest": 5.753,
+          "look": 2.948
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "energy_before": 31.0,
+        "energy_after": 27.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.02,
+          "rest": 6.609,
+          "look": 3.02
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "energy_before": 27.0,
+        "energy_after": 23.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.991,
+          "rest": 5.703,
+          "look": 2.133
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "energy_before": 23.0,
+        "energy_after": 19.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.933,
+          "rest": 5.233,
+          "look": 2.01
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "energy_before": 19.0,
+        "energy_after": 15.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.889,
+          "rest": 4.833,
+          "look": 1.919
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "energy_before": 15.0,
+        "energy_after": 11.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.856,
+          "rest": 4.513,
+          "look": 1.851
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "energy_before": 11.0,
+        "energy_after": 19.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 3.118,
+          "rest": 2.765,
+          "look": 2.765
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "energy_before": 19.0,
+        "energy_after": 27.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.753,
+          "rest": 3.584,
+          "look": 1.634
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "energy_before": 27.0,
+        "energy_after": 31.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.747,
+          "rest": 3.508,
+          "look": 1.622
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "energy_before": 31.0,
+        "energy_after": 32.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.833,
+          "rest": 6.088,
+          "look": 2.833
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "energy_before": 32.0,
+        "energy_after": 30.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.873,
+          "rest": 6.568,
+          "look": 2.873
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.831,
+          "rest": 4.4,
+          "look": 1.801
+        },
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.819,
+          "rest": 4.281,
+          "look": 1.777
+        },
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "energy_before": 22.0,
+        "energy_after": 18.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.808,
+          "rest": 4.17,
+          "look": 1.754
+        },
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "energy_before": 18.0,
+        "energy_after": 14.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.798,
+          "rest": 4.067,
+          "look": 1.733
+        },
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "energy_before": 14.0,
+        "energy_after": 10.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.789,
+          "rest": 3.972,
+          "look": 1.714
+        },
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "energy_before": 10.0,
+        "energy_after": 18.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 3.017,
+          "rest": 2.744,
+          "look": 2.744
+        },
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "energy_before": 18.0,
+        "energy_after": 26.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.734,
+          "rest": 3.51,
+          "look": 1.599
+        },
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "energy_before": 26.0,
+        "energy_after": 30.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.731,
+          "rest": 3.466,
+          "look": 1.592
+        },
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 2.727,
+          "rest": 3.424,
+          "look": 1.585
+        },
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.01,
+          "rest": 6.431,
+          "look": 3.01
+        },
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "energy_before": 46.0,
+        "energy_after": 50.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.041,
+          "rest": 6.728,
+          "look": 3.041
+        },
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "energy_before": 50.0,
+        "energy_after": 51.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.06,
+          "rest": 6.939,
+          "look": 3.06
+        },
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 51.0,
+    "aif_actions": {
+      "read": 5,
+      "rest": 23,
+      "look": 2
+    },
+    "parsed_actions": {
+      "read": 0,
+      "rest": 28,
+      "look": 2
+    },
+    "matches": 25,
+    "rest_total": 23,
+    "rest_mismatch": 0
+  },
+  {
+    "seed": 2,
+    "rows": [
+      {
+        "tick": 1,
+        "energy_before": 12.0,
+        "energy_after": 8.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 2.15,
+          "rest": 2.15,
+          "look": 2.15
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "energy_before": 8.0,
+        "energy_after": 16.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.15,
+          "rest": 2.15,
+          "look": -0.269
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "energy_before": 16.0,
+        "energy_after": 24.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 2.229,
+          "rest": 2.229,
+          "look": 2.229
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "energy_before": 24.0,
+        "energy_after": 28.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 2.882,
+          "rest": 2.308,
+          "look": 2.308
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.802,
+          "rest": 2.295,
+          "look": 2.295
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 2.616,
+          "rest": 2.616,
+          "look": 2.616
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "energy_before": 32.0,
+        "energy_after": 28.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.004,
+          "rest": 3.004,
+          "look": 5.776
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 4.151,
+          "rest": 5.635,
+          "look": 2.961
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.033,
+          "rest": 3.033,
+          "look": 5.767
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "energy_before": 32.0,
+        "energy_after": 28.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.118,
+          "rest": 3.118,
+          "look": 6.493
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 4.44,
+          "rest": 6.327,
+          "look": 3.066
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.093,
+          "rest": 3.093,
+          "look": 6.221
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "energy_before": 32.0,
+        "energy_after": 28.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.143,
+          "rest": 3.143,
+          "look": 6.621
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 4.549,
+          "rest": 6.598,
+          "look": 3.104
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.117,
+          "rest": 3.117,
+          "look": 6.392
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "energy_before": 32.0,
+        "energy_after": 28.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.153,
+          "rest": 3.153,
+          "look": 6.667
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 4.602,
+          "rest": 6.736,
+          "look": 3.122
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.129,
+          "rest": 3.129,
+          "look": 6.478
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "energy_before": 32.0,
+        "energy_after": 28.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.157,
+          "rest": 3.157,
+          "look": 6.688
+        },
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 4.632,
+          "rest": 6.816,
+          "look": 3.132
+        },
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.136,
+          "rest": 3.136,
+          "look": 6.528
+        },
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "energy_before": 32.0,
+        "energy_after": 28.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.159,
+          "rest": 3.159,
+          "look": 6.699
+        },
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 4.65,
+          "rest": 6.868,
+          "look": 3.138
+        },
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.141,
+          "rest": 3.141,
+          "look": 6.56
+        },
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "energy_before": 32.0,
+        "energy_after": 28.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.16,
+          "rest": 3.16,
+          "look": 6.704
+        },
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 4.662,
+          "rest": 6.903,
+          "look": 3.141
+        },
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.143,
+          "rest": 3.143,
+          "look": 6.582
+        },
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "energy_before": 32.0,
+        "energy_after": 28.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.16,
+          "rest": 3.16,
+          "look": 6.706
+        },
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "energy_before": 28.0,
+        "energy_after": 36.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 4.67,
+          "rest": 6.928,
+          "look": 3.144
+        },
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "energy_before": 36.0,
+        "energy_after": 32.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.145,
+          "rest": 3.145,
+          "look": 6.598
+        },
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 32.0,
+    "aif_actions": {
+      "read": 2,
+      "rest": 10,
+      "look": 18
+    },
+    "parsed_actions": {
+      "read": 0,
+      "rest": 12,
+      "look": 18
+    },
+    "matches": 28,
+    "rest_total": 10,
+    "rest_mismatch": 0
+  },
+  {
+    "seed": 3,
+    "rows": [
+      {
+        "tick": 1,
+        "energy_before": 12.0,
+        "energy_after": 20.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 2.15,
+          "rest": 2.15,
+          "look": 2.15
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "energy_before": 20.0,
+        "energy_after": 28.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.229,
+          "rest": 2.229,
+          "look": 2.229
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "energy_before": 28.0,
+        "energy_after": 32.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.308,
+          "rest": 2.882,
+          "look": 2.308
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "energy_before": 32.0,
+        "energy_after": 33.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.573,
+          "rest": 2.573,
+          "look": 2.573
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "energy_before": 33.0,
+        "energy_after": 31.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.961,
+          "rest": 5.758,
+          "look": 2.961
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "energy_before": 31.0,
+        "energy_after": 27.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.033,
+          "rest": 6.613,
+          "look": 3.033
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "energy_before": 27.0,
+        "energy_after": 23.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.003,
+          "rest": 5.706,
+          "look": 3.003
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "energy_before": 23.0,
+        "energy_after": 19.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.945,
+          "rest": 5.235,
+          "look": 2.945
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "energy_before": 19.0,
+        "energy_after": 15.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.901,
+          "rest": 4.835,
+          "look": 2.901
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "energy_before": 15.0,
+        "energy_after": 11.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.869,
+          "rest": 4.515,
+          "look": 2.869
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "energy_before": 11.0,
+        "energy_after": 7.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 3.196,
+          "rest": 2.777,
+          "look": 2.777
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "energy_before": 7.0,
+        "energy_after": 15.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 3.196,
+          "rest": 2.777,
+          "look": 0.226
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "energy_before": 15.0,
+        "energy_after": 23.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.765,
+          "rest": 3.595,
+          "look": 2.765
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "energy_before": 23.0,
+        "energy_after": 27.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.759,
+          "rest": 3.517,
+          "look": 2.759
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "energy_before": 27.0,
+        "energy_after": 28.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.753,
+          "rest": 3.44,
+          "look": 2.753
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "energy_before": 28.0,
+        "energy_after": 26.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.747,
+          "rest": 3.368,
+          "look": 2.747
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.741,
+          "rest": 3.3,
+          "look": 2.741
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "energy_before": 22.0,
+        "energy_after": 18.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 2.736,
+          "rest": 3.238,
+          "look": 2.736
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "energy_before": 18.0,
+        "energy_after": 26.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.736,
+          "rest": 3.238,
+          "look": 3.095
+        },
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "intended": "look",
+        "intent_text": "我需要观察环境。",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "match": true,
+        "scores": {
+          "read": 2.731,
+          "rest": 3.18,
+          "look": 3.08
+        },
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 2.731,
+          "rest": 3.18,
+          "look": 2.986
+        },
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "intended": "read",
+        "intent_text": "我需要回能。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": false,
+        "scores": {
+          "read": 2.727,
+          "rest": 3.128,
+          "look": 2.969
+        },
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.034,
+          "rest": 6.38,
+          "look": 3.034
+        },
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "energy_before": 46.0,
+        "energy_after": 50.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.074,
+          "rest": 6.799,
+          "look": 3.074
+        },
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "energy_before": 50.0,
+        "energy_after": 51.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.096,
+          "rest": 7.052,
+          "look": 3.096
+        },
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "energy_before": 51.0,
+        "energy_after": 49.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.109,
+          "rest": 7.218,
+          "look": 3.109
+        },
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "energy_before": 49.0,
+        "energy_after": 45.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.117,
+          "rest": 7.332,
+          "look": 3.117
+        },
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "energy_before": 45.0,
+        "energy_after": 41.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.123,
+          "rest": 7.414,
+          "look": 3.123
+        },
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "energy_before": 41.0,
+        "energy_after": 37.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.127,
+          "rest": 7.474,
+          "look": 3.127
+        },
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "energy_before": 37.0,
+        "energy_after": 33.0,
+        "intended": "rest",
+        "intent_text": "我需要停下来，避免继续消耗。",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "match": true,
+        "scores": {
+          "read": 3.13,
+          "rest": 7.52,
+          "look": 3.13
+        },
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 33.0,
+    "aif_actions": {
+      "read": 3,
+      "rest": 24,
+      "look": 3
+    },
+    "parsed_actions": {
+      "read": 0,
+      "rest": 27,
+      "look": 3
+    },
+    "matches": 27,
+    "rest_total": 24,
+    "rest_mismatch": 0
+  }
+]

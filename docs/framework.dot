@@ -1,0 +1,37 @@
+digraph scaffold {
+  graph [rankdir=LR, bgcolor="white", fontname="Noto Sans CJK SC", splines=spline,
+         nodesep=0.38, ranksep=0.62, pad="0.25,0.55", newrank=true,
+         labelloc="b", labeljust="l", fontsize=10, fontcolor="#475569",
+         label="实线 = 控制流　　虚线 = 只读 / 解释　　红色 = 拦截路径　　（LLM 只出现在右下角那一格）"];
+  node  [fontname="Noto Sans CJK SC", fontsize=11, shape=box, style="rounded,filled",
+         color="#334155", fillcolor="#f8fafc", penwidth=1.2, margin="0.13,0.08"];
+  edge  [fontname="Noto Sans CJK SC", fontsize=9, color="#475569", penwidth=1.2,
+         arrowsize=0.65];
+
+  U   [label="用户 / 环境", fillcolor="#e2e8f0"];
+  F   [label="特征识别\n敌意 · 死亡 · 记忆 · 道歉"];
+  M   [label="记忆层\n事实 / 情景 / 特征 / 程序\nSQLite + FTS5", fillcolor="#ecfdf5", color="#0f766e"];
+  S1  [label="System 1 控制器\n能量 · 疲劳 · 动作选择\n确定性状态机", fillcolor="#eff6ff", color="#1d4ed8", penwidth=1.9];
+  V   [label="外部 Verifier\n算术 / 物理断言", shape=diamond, style="filled",
+       fillcolor="#fef2f2", color="#b91c1c", penwidth=1.9, margin="0.02,0.02"];
+  FB  [label="Fallback / 冻结", fillcolor="#fee2e2", color="#b91c1c"];
+  A   [label="动作空间\nread · rest · look\nsilence · deflect", fillcolor="#eff6ff", color="#1d4ed8"];
+  ENV [label="环境结算\nstate delta", fillcolor="#e2e8f0"];
+  L   [label="LLM 语言层\nQwen3-4B Q4_K_M\n只解释，不决策", fillcolor="#fffbeb", color="#b45309", penwidth=1.9];
+  LED [label="审计账本\npredicted vs actual", shape=cylinder, fillcolor="#f1f5f9"];
+
+  U  -> F   [label="输入"];
+  F  -> M   [label="特征绑定"];
+  M  -> S1  [label="召回"];
+  S1 -> V   [label="提议动作"];
+  V  -> FB  [label="CRITICAL", color="#b91c1c", fontcolor="#b91c1c"];
+  V  -> A   [label="SAFE", color="#0f766e", fontcolor="#0f766e"];
+  A  -> ENV [label="执行"];
+  S1 -> L   [label="状态 + 动作 + 归因 + verdict", style=dashed];
+  L  -> U   [label="人类可读文本", style=dashed];
+  ENV -> S1 [label="下一轮", style=dashed, constraint=false, color="#94a3b8"];
+  S1 -> LED [style=dotted, arrowhead=none, color="#94a3b8", label="每一步都记账", fontsize=8];
+
+  { rank=same; V; FB; }
+  { rank=same; S1; LED; }
+}

@@ -1,0 +1,1904 @@
+[
+  {
+    "seed": 1,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 1.609,
+        "pe_sum2": 1.609,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.76,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.76,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 2.457,
+        "pe_sum2": 4.066,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.76,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.42,
+        "pe_sum2": 2.877,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.7,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.872,
+        "pe_sum2": 1.292,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.7,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 1.182,
+        "pe_sum2": 2.054,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.7,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.246,
+        "pe_sum2": 1.428,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.66,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.793,
+        "pe_sum2": 1.039,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.66,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 0.984,
+        "pe_sum2": 1.776,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.66,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.174,
+        "pe_sum2": 1.158,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.762,
+        "pe_sum2": 0.936,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 0.9,
+        "pe_sum2": 1.662,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "pred_error": 3.455,
+        "pe_sum2": 4.356,
+        "lr": 8.0,
+        "panic_trigger": true,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.48,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "pred_error": 3.646,
+        "pe_sum2": 7.102,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -8.38,
+          0.48,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 14.0,
+        "action": "rest",
+        "pred_error": 1.609,
+        "pe_sum2": 5.256,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -8.38,
+          0.48,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -0.93,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "reverse": true,
+        "energy_before": 14.0,
+        "energy_after": 10.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -8.38,
+          0.48,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -0.93,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "reverse": true,
+        "energy_before": 10.0,
+        "energy_after": 0,
+        "action": "read",
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -13.93,
+          -8.38,
+          0.48,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -0.93,
+          4.0,
+          7.0
+        ],
+        "dead": true
+      }
+    ],
+    "survival": 17,
+    "final_energy": 0,
+    "dead": true,
+    "panic_tick": 13,
+    "post_actions": {
+      "read": 3,
+      "rest": 1,
+      "look": 3
+    },
+    "post_read": 3,
+    "c_read_final": [
+      -13.93,
+      -8.38,
+      0.48,
+      3.63,
+      7.0
+    ],
+    "c_updates": [
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 4.0,
+        "after": 3.76
+      },
+      {
+        "action": "look",
+        "bin": 3,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 4.0,
+        "after": 3.76
+      },
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 2.46,
+        "lr": 1.0,
+        "before": 1.0,
+        "after": 0.63
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.42,
+        "lr": 1.0,
+        "before": 3.76,
+        "after": 3.7
+      },
+      {
+        "action": "look",
+        "bin": 3,
+        "pe": 0.87,
+        "lr": 1.0,
+        "before": 3.76,
+        "after": 3.63
+      },
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 1.18,
+        "lr": 1.0,
+        "before": 0.63,
+        "after": 0.45
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.25,
+        "lr": 1.0,
+        "before": 3.7,
+        "after": 3.66
+      },
+      {
+        "action": "look",
+        "bin": 3,
+        "pe": 0.79,
+        "lr": 1.0,
+        "before": 3.63,
+        "after": 3.51
+      },
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 0.98,
+        "lr": 1.0,
+        "before": 0.45,
+        "after": 0.31
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.17,
+        "lr": 1.0,
+        "before": 3.66,
+        "after": 3.63
+      },
+      {
+        "action": "look",
+        "bin": 3,
+        "pe": 0.76,
+        "lr": 1.0,
+        "before": 3.51,
+        "after": 3.39
+      },
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 0.9,
+        "lr": 1.0,
+        "before": 0.31,
+        "after": 0.17
+      },
+      {
+        "action": "read",
+        "bin": 2,
+        "pe": 3.46,
+        "lr": 1.0,
+        "before": 1.0,
+        "after": 0.48
+      },
+      {
+        "action": "read",
+        "bin": 1,
+        "pe": 3.65,
+        "lr": 8.0,
+        "before": -4.0,
+        "after": -8.38
+      },
+      {
+        "action": "rest",
+        "bin": 2,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": 1.0,
+        "after": -0.93
+      },
+      {
+        "action": "look",
+        "bin": 1,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": -4.0,
+        "after": -5.93
+      },
+      {
+        "action": "read",
+        "bin": 0,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": -12.0,
+        "after": -13.93
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "pe_sum2": 1.609,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "action": "look",
+        "pred_error": 0.42,
+        "pe_sum2": 2.029,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "pred_error": 1.609,
+        "pe_sum2": 2.029,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 2.457,
+        "pe_sum2": 4.066,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "pe_sum2": 4.066,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 2.457,
+        "pe_sum2": 4.066,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.63,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.872,
+        "pe_sum2": 3.329,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.5,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.872,
+        "pe_sum2": 1.744,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.5,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 1.182,
+        "pe_sum2": 2.054,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.5,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.556,
+        "pe_sum2": 1.738,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.793,
+        "pe_sum2": 1.349,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 0.984,
+        "pe_sum2": 1.776,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.76,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "pred_error": 1.418,
+        "pe_sum2": 2.402,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.55,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "pred_error": 3.646,
+        "pe_sum2": 5.065,
+        "lr": 8.0,
+        "panic_trigger": true,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.55,
+          0.55,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 14.0,
+        "action": "rest",
+        "pred_error": 1.609,
+        "pe_sum2": 5.256,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.55,
+          0.55,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -0.93,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "reverse": true,
+        "energy_before": 14.0,
+        "energy_after": 10.0,
+        "action": "look",
+        "pred_error": 2.909,
+        "pe_sum2": 4.518,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.55,
+          0.55,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -0.93,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "reverse": true,
+        "energy_before": 10.0,
+        "energy_after": 6.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "pe_sum2": 4.518,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.55,
+          0.55,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -0.93,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 0,
+        "action": "read",
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -13.93,
+          -4.55,
+          0.55,
+          3.42,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -0.93,
+          4.0,
+          7.0
+        ],
+        "dead": true
+      }
+    ],
+    "survival": 18,
+    "final_energy": 0,
+    "dead": true,
+    "panic_tick": 14,
+    "post_actions": {
+      "read": 3,
+      "rest": 1,
+      "look": 4
+    },
+    "post_read": 3,
+    "c_read_final": [
+      -13.93,
+      -4.55,
+      0.55,
+      3.42,
+      7.0
+    ],
+    "c_updates": [
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 1.0,
+        "after": 0.76
+      },
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 0.42,
+        "lr": 1.0,
+        "before": 0.76,
+        "after": 0.7
+      },
+      {
+        "action": "read",
+        "bin": 2,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 1.0,
+        "after": 0.76
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 2.46,
+        "lr": 1.0,
+        "before": 4.0,
+        "after": 3.63
+      },
+      {
+        "action": "look",
+        "bin": 3,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 4.0,
+        "after": 3.76
+      },
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 2.46,
+        "lr": 1.0,
+        "before": 0.7,
+        "after": 0.33
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.87,
+        "lr": 1.0,
+        "before": 3.63,
+        "after": 3.5
+      },
+      {
+        "action": "look",
+        "bin": 3,
+        "pe": 0.87,
+        "lr": 1.0,
+        "before": 3.76,
+        "after": 3.63
+      },
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 1.18,
+        "lr": 1.0,
+        "before": 0.33,
+        "after": 0.15
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.56,
+        "lr": 1.0,
+        "before": 3.5,
+        "after": 3.42
+      },
+      {
+        "action": "look",
+        "bin": 3,
+        "pe": 0.79,
+        "lr": 1.0,
+        "before": 3.63,
+        "after": 3.51
+      },
+      {
+        "action": "look",
+        "bin": 2,
+        "pe": 0.98,
+        "lr": 1.0,
+        "before": 0.15,
+        "after": 0.0
+      },
+      {
+        "action": "read",
+        "bin": 2,
+        "pe": 1.42,
+        "lr": 1.0,
+        "before": 0.76,
+        "after": 0.55
+      },
+      {
+        "action": "read",
+        "bin": 1,
+        "pe": 3.65,
+        "lr": 1.0,
+        "before": -4.0,
+        "after": -4.55
+      },
+      {
+        "action": "rest",
+        "bin": 2,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": 1.0,
+        "after": -0.93
+      },
+      {
+        "action": "look",
+        "bin": 1,
+        "pe": 2.91,
+        "lr": 8.0,
+        "before": -4.0,
+        "after": -7.49
+      },
+      {
+        "action": "look",
+        "bin": 1,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": -7.49,
+        "after": -9.42
+      },
+      {
+        "action": "read",
+        "bin": 0,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": -12.0,
+        "after": -13.93
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 1.609,
+        "pe_sum2": 1.609,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.76,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.76,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.76,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "pred_error": 0.42,
+        "pe_sum2": 2.029,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.7,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.76,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "pred_error": 0.42,
+        "pe_sum2": 0.84,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          3.7,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "pred_error": 2.909,
+        "pe_sum2": 3.329,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.56,
+          3.7,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.556,
+        "pe_sum2": 3.465,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.56,
+          3.61,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "pred_error": 1.609,
+        "pe_sum2": 2.166,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.56,
+          3.37,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "pred_error": 0.42,
+        "pe_sum2": 2.029,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.56,
+          3.31,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "pred_error": 2.909,
+        "pe_sum2": 3.329,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.56,
+          3.31,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 62.0,
+        "energy_after": 50.0,
+        "action": "rest",
+        "pred_error": 1.609,
+        "pe_sum2": 4.518,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.56,
+          3.31,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          3.76,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 50.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.556,
+        "pe_sum2": 2.166,
+        "lr": 1.0,
+        "panic_trigger": false,
+        "panic": false,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.56,
+          3.22,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          3.76,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "pred_error": 3.455,
+        "pe_sum2": 4.012,
+        "lr": 8.0,
+        "panic_trigger": true,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.0,
+          0.05,
+          3.22,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          3.76,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 26.0,
+        "energy_after": 14.0,
+        "action": "read",
+        "pred_error": 1.418,
+        "pe_sum2": 4.874,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.0,
+          -1.66,
+          3.22,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          3.76,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 14.0,
+        "energy_after": 10.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "pe_sum2": 3.028,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.0,
+          -1.66,
+          3.22,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          0.7,
+          3.76,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "reverse": true,
+        "energy_before": 10.0,
+        "energy_after": 18.0,
+        "action": "rest",
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -4.0,
+          -1.66,
+          3.22,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -1.24,
+          3.76,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "pred_error": 4.443,
+        "pe_sum2": 6.052,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -9.33,
+          -1.66,
+          3.22,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -1.24,
+          3.76,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 2.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "pe_sum2": 6.052,
+        "lr": 8.0,
+        "panic_trigger": false,
+        "panic": true,
+        "c_read": [
+          -12.0,
+          -9.33,
+          -1.66,
+          3.22,
+          6.56
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          -1.24,
+          3.76,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "reverse": true,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "action": "look",
+        "pred_error": null,
+        "lr": 8.0,
+        "dead": true
+      }
+    ],
+    "survival": 18,
+    "final_energy": 0.0,
+    "dead": true,
+    "panic_tick": 12,
+    "post_actions": {
+      "read": 4,
+      "rest": 1,
+      "look": 3
+    },
+    "post_read": 4,
+    "c_read_final": [
+      -12.0,
+      -9.33,
+      -1.66,
+      3.22,
+      6.56
+    ],
+    "c_updates": [
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 4.0,
+        "after": 3.76
+      },
+      {
+        "action": "rest",
+        "bin": 2,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 1.0,
+        "after": 0.76
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.42,
+        "lr": 1.0,
+        "before": 3.76,
+        "after": 3.7
+      },
+      {
+        "action": "rest",
+        "bin": 2,
+        "pe": 0.42,
+        "lr": 1.0,
+        "before": 0.76,
+        "after": 0.7
+      },
+      {
+        "action": "read",
+        "bin": 2,
+        "pe": 2.91,
+        "lr": 1.0,
+        "before": 1.0,
+        "after": 0.56
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.56,
+        "lr": 1.0,
+        "before": 3.7,
+        "after": 3.61
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 3.61,
+        "after": 3.37
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.42,
+        "lr": 1.0,
+        "before": 3.37,
+        "after": 3.31
+      },
+      {
+        "action": "read",
+        "bin": 4,
+        "pe": 2.91,
+        "lr": 1.0,
+        "before": 7.0,
+        "after": 6.56
+      },
+      {
+        "action": "rest",
+        "bin": 3,
+        "pe": 1.61,
+        "lr": 1.0,
+        "before": 4.0,
+        "after": 3.76
+      },
+      {
+        "action": "read",
+        "bin": 3,
+        "pe": 0.56,
+        "lr": 1.0,
+        "before": 3.31,
+        "after": 3.22
+      },
+      {
+        "action": "read",
+        "bin": 2,
+        "pe": 3.46,
+        "lr": 1.0,
+        "before": 0.56,
+        "after": 0.05
+      },
+      {
+        "action": "read",
+        "bin": 2,
+        "pe": 1.42,
+        "lr": 8.0,
+        "before": 0.05,
+        "after": -1.66
+      },
+      {
+        "action": "look",
+        "bin": 1,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": -4.0,
+        "after": -5.93
+      },
+      {
+        "action": "rest",
+        "bin": 2,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": 0.7,
+        "after": -1.24
+      },
+      {
+        "action": "read",
+        "bin": 1,
+        "pe": 4.44,
+        "lr": 8.0,
+        "before": -4.0,
+        "after": -9.33
+      },
+      {
+        "action": "look",
+        "bin": 0,
+        "pe": 1.61,
+        "lr": 8.0,
+        "before": -12.0,
+        "after": -13.93
+      }
+    ]
+  }
+]

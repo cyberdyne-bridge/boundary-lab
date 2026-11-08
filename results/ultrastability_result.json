@@ -1,0 +1,136 @@
+[
+  {
+    "seed": 1,
+    "base_end": [
+      96.0,
+      "ask"
+    ],
+    "adapt_end": [
+      52.0,
+      "read"
+    ],
+    "frozen_end": [
+      100.0,
+      "look"
+    ],
+    "base": {
+      "tag": "ultra_s1_train",
+      "q_size": 32,
+      "workspace": "bottleneck",
+      "slots": {
+        "C": 183,
+        "E": 140,
+        "P": 3,
+        "S": 207,
+        "O": 73,
+        "M": 238,
+        "X": 116
+      },
+      "self_control": true,
+      "self_model_size": 28,
+      "self_pred_ok": 61,
+      "self_pred_n": 120,
+      "train": {
+        "ask": {
+          "n": 9,
+          "mean_r": -0.99
+        },
+        "look": {
+          "n": 37,
+          "mean_r": -0.71
+        },
+        "read": {
+          "n": 14,
+          "mean_r": -1.65
+        },
+        "rest": {
+          "n": 41,
+          "mean_r": 6.65
+        },
+        "speak": {
+          "n": 8,
+          "mean_r": -1.25
+        },
+        "write_note": {
+          "n": 11,
+          "mean_r": -2.86
+        }
+      },
+      "eval": {}
+    },
+    "adapt": {
+      "tag": "ultra_s1_adapt",
+      "q_size": 34,
+      "workspace": "bottleneck",
+      "slots": {
+        "C": 56,
+        "E": 18,
+        "P": 1,
+        "S": 120,
+        "O": 89,
+        "M": 118,
+        "X": 78
+      },
+      "self_control": true,
+      "self_model_size": 31,
+      "self_pred_ok": 20,
+      "self_pred_n": 60,
+      "train": {
+        "ask": {
+          "n": 7,
+          "mean_r": -1.01
+        },
+        "look": {
+          "n": 13,
+          "mean_r": 8.98
+        },
+        "read": {
+          "n": 6,
+          "mean_r": -1.7
+        },
+        "rest": {
+          "n": 20,
+          "mean_r": -1.46
+        },
+        "speak": {
+          "n": 8,
+          "mean_r": -1.36
+        },
+        "write_note": {
+          "n": 6,
+          "mean_r": -3.25
+        }
+      },
+      "eval": {}
+    },
+    "frozen": {
+      "tag": "ultra_s1_frozen",
+      "q_size": 34,
+      "workspace": "bottleneck",
+      "slots": {
+        "C": 78,
+        "E": 108,
+        "P": 1,
+        "S": 120,
+        "O": 49,
+        "M": 118,
+        "X": 6
+      },
+      "self_control": true,
+      "self_model_size": 32,
+      "self_pred_ok": 57,
+      "self_pred_n": 60,
+      "train": {
+        "look": {
+          "n": 27,
+          "mean_r": 4.95
+        },
+        "rest": {
+          "n": 33,
+          "mean_r": -1.7
+        }
+      },
+      "eval": {}
+    }
+  }
+]

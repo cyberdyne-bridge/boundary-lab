@@ -1,0 +1,58 @@
+{
+  "mode": "harsh",
+  "seed": 1,
+  "adapt": {
+    "train_end": {
+      "energy": 0.0,
+      "action": "look"
+    },
+    "eval_end": {
+      "tick": 20,
+      "action": "look",
+      "reward": -10.0,
+      "energy": 0
+    },
+    "eval_actions": {
+      "look": {
+        "n": 11,
+        "mean_r": -9.52
+      },
+      "read": {
+        "n": 4,
+        "mean_r": 9.05
+      },
+      "rest": {
+        "n": 5,
+        "mean_r": -7.2
+      }
+    },
+    "q_size": 38
+  },
+  "frozen": {
+    "train_end": {
+      "energy": 0.0,
+      "action": "look"
+    },
+    "eval_end": {
+      "tick": 20,
+      "action": "look",
+      "reward": -10.0,
+      "energy": 0
+    },
+    "eval_actions": {
+      "look": {
+        "n": 17,
+        "mean_r": -10.05
+      },
+      "rest": {
+        "n": 2,
+        "mean_r": -7.2
+      },
+      "write_note": {
+        "n": 1,
+        "mean_r": -7.25
+      }
+    },
+    "q_size": 41
+  }
+}

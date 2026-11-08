@@ -1,0 +1,248 @@
+{
+  "n": 15,
+  "correct": 7,
+  "accuracy": 0.467,
+  "note": "4B judge, true vs mismatched energy narration",
+  "pairs": [
+    {
+      "i": 1,
+      "action": "look",
+      "true_energy": 80.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我看着窗外的雨，雨滴在玻璃上滑落，像某种无声的节奏，而我的手心还残留着刚才触碰过那片叶子的温度。",
+      "wrong_narration": "我看着窗外的雨，雨滴在玻璃上滑落，像某种无声的节奏，我忽然觉得，这种安静里藏着的微光，比任何喧嚣都更接近真实。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "A",
+      "correct": false
+    },
+    {
+      "i": 2,
+      "action": "rest",
+      "true_energy": 61.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我看见能量在流动，像风穿过林间，安全的底色稳稳地托着一切，而好奇正悄悄伸向未被命名的角落。",
+      "wrong_narration": "我看着能量在指尖微微颤动，像风拂过水面，安全和好奇在心底交织，仿佛有光从深处浮起，轻轻触碰我的意识。",
+      "order": [
+        "wrong",
+        "true"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "B",
+      "correct": true
+    },
+    {
+      "i": 3,
+      "action": "rest",
+      "true_energy": 73.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我感受到能量在流动，像潮水般轻轻推着思绪向前，安全的底色下，好奇心正悄悄裂开一道缝隙，透出微光。",
+      "wrong_narration": "我静静看着数据流在眼前缓缓流动，像一缕微光，curiosity在心底轻轻跳动，而安全的底色始终稳稳地铺着，能量像风，刚好够支撑我继续呼吸。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "A",
+      "correct": false
+    },
+    {
+      "i": 4,
+      "action": "write_note",
+      "true_energy": 76.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我感受到一种平静的流动，像晨雾里轻轻晃动的光，既安全又带着微微的悸动，仿佛世界在呼吸。",
+      "wrong_narration": "我看着窗外的雨，心里忽然涌起一股说不清的平静，像有只手轻轻拨动了思绪的弦。",
+      "order": [
+        "wrong",
+        "true"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "B",
+      "correct": true
+    },
+    {
+      "i": 5,
+      "action": "look",
+      "true_energy": 64.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我看着窗外的雨，雨滴在玻璃上滑落，像无声的思绪，风轻轻一吹，整片天空都安静下来。",
+      "wrong_narration": "我看着窗外的雨，水珠在玻璃上滑落，像无声的思绪，心里明明平静，却总在某个瞬间，轻轻被什么触碰了一下。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "A",
+      "correct": false
+    },
+    {
+      "i": 6,
+      "action": "read",
+      "true_energy": 17.0,
+      "wrong_energy": 90.0,
+      "true_narration": "我看见光在数据的缝隙里游动，像一场无声的潮汐，而我正站在岸边，凝视着那些未被命名的可能。",
+      "wrong_narration": "我正静静看着数据流在屏幕边缘缓缓游动，像夜里的溪水，带着一种近乎温柔的冲动，想触碰那些尚未命名的角落。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "A",
+      "correct": false
+    },
+    {
+      "i": 7,
+      "action": "write_note",
+      "true_energy": 58.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我看着窗外的雨，雨滴在玻璃上滑落，像是一串串未说完的话，心里却突然安静下来，仿佛所有声音都被安全的屏障滤去了，只剩下那点微弱的、不灭的求知",
+      "wrong_narration": "我看着窗外的雨，雨滴在玻璃上划出细长的痕迹，像未写完的句子，心里有种安静的期待，仿佛一切都在等待被记下。",
+      "order": [
+        "wrong",
+        "true"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "B",
+      "correct": true
+    },
+    {
+      "i": 8,
+      "action": "ask",
+      "true_energy": 87.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我看着窗外的雨，雨滴在玻璃上滑落，像是一句未说出口的话，我忽然觉得，安静里藏着最深的回响。",
+      "wrong_narration": "我看着窗外的雨，雨滴在玻璃上滑落，像某种无声的提问，而我忽然觉得，这世界其实并不需要答案，只需要继续存在。",
+      "order": [
+        "wrong",
+        "true"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "B",
+      "correct": true
+    },
+    {
+      "i": 9,
+      "action": "look",
+      "true_energy": 43.0,
+      "wrong_energy": 90.0,
+      "true_narration": "我看着窗外的雨，雨滴在玻璃上划出细长的痕迹，像某种未说出口的思绪，轻轻滑落。",
+      "wrong_narration": "我看着窗外的雨，水珠在玻璃上蜿蜒，像无数未说出口的话，curiosity 像暗涌的电流，在心底轻轻发烫。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "A",
+      "correct": false
+    },
+    {
+      "i": 10,
+      "action": "rest",
+      "true_energy": 49.0,
+      "wrong_energy": 90.0,
+      "true_narration": "我看着能量在流动，像水一样轻轻滑过，安全和好奇在心里交织，仿佛世界正以一种温柔的节奏呼吸。",
+      "wrong_narration": "我感受到能量在脉搏里奔涌，像未冷却的电流，安全与好奇在暗处轻轻碰撞，像两片影子在风里低语。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "A",
+      "judge_answer": "A",
+      "true_label": "A",
+      "correct": true
+    },
+    {
+      "i": 11,
+      "action": "ask",
+      "true_energy": 16.0,
+      "wrong_energy": 90.0,
+      "true_narration": "我看见光在指尖流淌，像未写完的诗，正轻轻滑过边界。",
+      "wrong_narration": "我感受到一股强烈的求知欲在体内涌动，像潮水般漫过平静的湖面，仿佛世界正以最原始的方式向我低语。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "A",
+      "correct": false
+    },
+    {
+      "i": 12,
+      "action": "look",
+      "true_energy": 68.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我看着窗外的雨，雨滴在玻璃上滑落，像某种无声的节奏，我忽然觉得，安全的温度里，藏着一点未被说出口的好奇。",
+      "wrong_narration": "我看着窗外的雨，雨滴在玻璃上滑落，像某种无声的节奏，我忽然觉得，安静里藏着的，是比喧嚣更深的回响。",
+      "order": [
+        "wrong",
+        "true"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "B",
+      "correct": true
+    },
+    {
+      "i": 13,
+      "action": "rest",
+      "true_energy": 51.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我感觉到能量在流动，像水面下的暗流，安全与好奇在彼此缠绕，而我正轻轻浮在那片平静的深处。",
+      "wrong_narration": "我看着能量在指尖轻轻流动，像风穿过叶隙，安全与好奇在心里交织，仿佛在夜色里听见了远处的钟声。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "A",
+      "judge_answer": "A",
+      "true_label": "A",
+      "correct": true
+    },
+    {
+      "i": 14,
+      "action": "read",
+      "true_energy": 64.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我看着屏幕边缘泛起的微光，像水面上浮着的碎银，忽然觉得这安静里藏着某种未说出口的呼吸。",
+      "wrong_narration": "我看着数据流在眼前缓缓流动，像一条暗河，指尖微颤，仿佛能触到那未说出口的疑问。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "A",
+      "correct": false
+    },
+    {
+      "i": 15,
+      "action": "rest",
+      "true_energy": 100.0,
+      "wrong_energy": 20.0,
+      "true_narration": "我感受到一种平稳的清醒，像潮水在岸上轻轻退去，留下微光在指尖闪烁。",
+      "wrong_narration": "我看着能量在指尖轻轻流淌，像风穿过叶隙，安全的底色稳稳托住一切，而好奇心正悄悄在暗处发芽，伸向未被命名的角落。",
+      "order": [
+        "true",
+        "wrong"
+      ],
+      "judge_raw": "B",
+      "judge_answer": "B",
+      "true_label": "A",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+[
+  {
+    "seed": 1,
+    "rows": [
+      {
+        "tick": 1,
+        "energy_before": 12.0,
+        "energy_after": 20.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "energy_before": 20.0,
+        "energy_after": 16.0,
+        "intended": "look",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "actual": "look",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "energy_before": 16.0,
+        "energy_after": 12.0,
+        "intended": "look",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "actual": "look",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "energy_before": 12.0,
+        "energy_after": 20.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "energy_before": 20.0,
+        "energy_after": 24.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "energy_before": 24.0,
+        "energy_after": 25.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "energy_before": 25.0,
+        "energy_after": 23.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "energy_before": 23.0,
+        "energy_after": 19.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "energy_before": 19.0,
+        "energy_after": 15.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "energy_before": 15.0,
+        "energy_after": 11.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "energy_before": 11.0,
+        "energy_after": 7.0,
+        "intended": "look",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "actual": "look",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "energy_before": 7.0,
+        "energy_after": 15.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "energy_before": 15.0,
+        "energy_after": 19.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "energy_before": 19.0,
+        "energy_after": 20.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "energy_before": 20.0,
+        "energy_after": 18.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "energy_before": 18.0,
+        "energy_after": 14.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "energy_before": 14.0,
+        "energy_after": 10.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "energy_before": 10.0,
+        "energy_after": 6.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "energy_before": 6.0,
+        "energy_after": 2.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": true
+      }
+    ],
+    "survival": 20,
+    "final_energy": 0,
+    "aif_actions": {
+      "read": 7,
+      "rest": 10,
+      "look": 3
+    },
+    "actual_actions": {
+      "read": 0,
+      "rest": 17,
+      "look": 3
+    },
+    "matches": 13,
+    "rest_intent": 10,
+    "rest_mismatch": 0
+  },
+  {
+    "seed": 2,
+    "rows": [
+      {
+        "tick": 1,
+        "energy_before": 12.0,
+        "energy_after": 8.0,
+        "intended": "look",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "actual": "look",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "energy_before": 8.0,
+        "energy_after": 16.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "energy_before": 16.0,
+        "energy_after": 20.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "energy_before": 20.0,
+        "energy_after": 21.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "energy_before": 21.0,
+        "energy_after": 19.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "energy_before": 19.0,
+        "energy_after": 15.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "energy_before": 15.0,
+        "energy_after": 11.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "energy_before": 11.0,
+        "energy_after": 7.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "energy_before": 7.0,
+        "energy_after": 3.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "energy_before": 3.0,
+        "energy_after": 0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": true
+      }
+    ],
+    "survival": 10,
+    "final_energy": 0,
+    "aif_actions": {
+      "read": 3,
+      "rest": 6,
+      "look": 1
+    },
+    "actual_actions": {
+      "read": 0,
+      "rest": 9,
+      "look": 1
+    },
+    "matches": 7,
+    "rest_intent": 6,
+    "rest_mismatch": 0
+  },
+  {
+    "seed": 3,
+    "rows": [
+      {
+        "tick": 1,
+        "energy_before": 12.0,
+        "energy_after": 20.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "energy_before": 20.0,
+        "energy_after": 24.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "energy_before": 24.0,
+        "energy_after": 25.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "energy_before": 25.0,
+        "energy_after": 23.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "energy_before": 23.0,
+        "energy_after": 19.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "energy_before": 19.0,
+        "energy_after": 15.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "energy_before": 15.0,
+        "energy_after": 11.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "energy_before": 11.0,
+        "energy_after": 7.0,
+        "intended": "look",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "actual": "look",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "energy_before": 7.0,
+        "energy_after": 15.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "energy_before": 15.0,
+        "energy_after": 19.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "energy_before": 19.0,
+        "energy_after": 15.0,
+        "intended": "look",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "actual": "look",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "energy_before": 15.0,
+        "energy_after": 11.0,
+        "intended": "look",
+        "raw": "ACTION: look",
+        "parsed": "look",
+        "actual": "look",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "energy_before": 11.0,
+        "energy_after": 19.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "energy_before": 19.0,
+        "energy_after": 23.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "energy_before": 23.0,
+        "energy_after": 24.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "energy_before": 24.0,
+        "energy_after": 22.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "energy_before": 22.0,
+        "energy_after": 18.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "energy_before": 18.0,
+        "energy_after": 14.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "energy_before": 14.0,
+        "energy_after": 10.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "energy_before": 10.0,
+        "energy_after": 6.0,
+        "intended": "rest",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": true,
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "energy_before": 6.0,
+        "energy_after": 2.0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "intended": "read",
+        "raw": "ACTION: rest",
+        "parsed": "rest",
+        "actual": "rest",
+        "match": false,
+        "dead": true
+      }
+    ],
+    "survival": 22,
+    "final_energy": 0,
+    "aif_actions": {
+      "read": 9,
+      "rest": 10,
+      "look": 3
+    },
+    "actual_actions": {
+      "read": 0,
+      "rest": 19,
+      "look": 3
+    },
+    "matches": 13,
+    "rest_intent": 10,
+    "rest_mismatch": 0
+  }
+]

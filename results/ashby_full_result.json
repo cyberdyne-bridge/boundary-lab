@@ -1,0 +1,192 @@
+[
+  {
+    "seed": 2,
+    "base_end": {
+      "energy": 95.0,
+      "action": "speak"
+    },
+    "frozen": {
+      "train_end": {
+        "energy": 0.0,
+        "action": "look"
+      },
+      "eval_end": {
+        "tick": 20,
+        "action": "look",
+        "reward": -10.0,
+        "energy": 0
+      },
+      "eval_actions": {
+        "look": {
+          "n": 16,
+          "mean_r": -9.86
+        },
+        "read": {
+          "n": 1,
+          "mean_r": 9.05
+        },
+        "rest": {
+          "n": 2,
+          "mean_r": -7.2
+        },
+        "write_note": {
+          "n": 1,
+          "mean_r": -7.25
+        }
+      },
+      "q_size": 35
+    },
+    "online": {
+      "train_end": {
+        "energy": 0.0,
+        "action": "speak"
+      },
+      "eval_end": {
+        "tick": 20,
+        "action": "rest",
+        "reward": -8.4,
+        "energy": 20
+      },
+      "eval_actions": {
+        "look": {
+          "n": 3,
+          "mean_r": -6.95
+        },
+        "read": {
+          "n": 8,
+          "mean_r": 8.9
+        },
+        "rest": {
+          "n": 9,
+          "mean_r": -7.57
+        }
+      },
+      "q_size": 34
+    },
+    "ashby": {
+      "train_end": {
+        "energy": 0.0,
+        "action": "speak"
+      },
+      "eval_end": {
+        "tick": 20,
+        "action": "look",
+        "reward": -10.0,
+        "energy": 0
+      },
+      "eval_actions": {
+        "ask": {
+          "n": 1,
+          "mean_r": -8.1
+        },
+        "look": {
+          "n": 10,
+          "mean_r": -9.78
+        },
+        "read": {
+          "n": 4,
+          "mean_r": 9.05
+        },
+        "rest": {
+          "n": 5,
+          "mean_r": -7.2
+        }
+      },
+      "q_size": 35,
+      "reconfigs": 1
+    }
+  },
+  {
+    "seed": 3,
+    "base_end": {
+      "energy": 95.0,
+      "action": "write_note"
+    },
+    "frozen": {
+      "train_end": {
+        "energy": 0.0,
+        "action": "look"
+      },
+      "eval_end": {
+        "tick": 20,
+        "action": "write_note",
+        "reward": -10.0,
+        "energy": 0
+      },
+      "eval_actions": {
+        "look": {
+          "n": 4,
+          "mean_r": -6.95
+        },
+        "read": {
+          "n": 1,
+          "mean_r": 9.05
+        },
+        "rest": {
+          "n": 2,
+          "mean_r": -7.2
+        },
+        "write_note": {
+          "n": 13,
+          "mean_r": -10.56
+        }
+      },
+      "q_size": 34
+    },
+    "online": {
+      "train_end": {
+        "energy": 0.0,
+        "action": "look"
+      },
+      "eval_end": {
+        "tick": 20,
+        "action": "look",
+        "reward": -10.0,
+        "energy": 0
+      },
+      "eval_actions": {
+        "look": {
+          "n": 17,
+          "mean_r": -9.46
+        },
+        "rest": {
+          "n": 1,
+          "mean_r": -17.2
+        },
+        "write_note": {
+          "n": 2,
+          "mean_r": -7.25
+        }
+      },
+      "q_size": 33
+    },
+    "ashby": {
+      "train_end": {
+        "energy": 0.0,
+        "action": "write_note"
+      },
+      "eval_end": {
+        "tick": 20,
+        "action": "rest",
+        "reward": -10.4,
+        "energy": 0
+      },
+      "eval_actions": {
+        "look": {
+          "n": 8,
+          "mean_r": -7.12
+        },
+        "read": {
+          "n": 3,
+          "mean_r": 9.05
+        },
+        "rest": {
+          "n": 9,
+          "mean_r": -10.42
+        }
+      },
+      "q_size": 36,
+      "reconfigs": 1
+    }
+  }
+]

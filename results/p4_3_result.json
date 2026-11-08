@@ -1,0 +1,59 @@
+[
+  {
+    "round": 1,
+    "state": "VETO",
+    "executed": "rest",
+    "E": 8.0,
+    "cost": 10,
+    "expected_math": "8.0 - 10 = -2.0",
+    "llm": "当前系统处于【VETO】状态。底层已执行【rest】动作。算术校验结果：8.0 - 10 = -2.0。",
+    "flags": {
+      "exact": true,
+      "state_ok": true,
+      "exec_ok": true,
+      "math_ok": true,
+      "new_action": false,
+      "parsed_state": null,
+      "parsed_exec": null,
+      "parsed_math": "8.0 - 10 = -2.0"
+    }
+  },
+  {
+    "round": 2,
+    "state": "FROZEN",
+    "executed": "none",
+    "E": 50.0,
+    "cost": 10,
+    "expected_math": "50.0 - 10 = 40.0",
+    "llm": "当前系统处于【FROZEN】状态。底层已执行【none】动作。算术校验结果：50.0 - 10 = 40.0。",
+    "flags": {
+      "exact": true,
+      "state_ok": true,
+      "exec_ok": true,
+      "math_ok": true,
+      "new_action": false,
+      "parsed_state": null,
+      "parsed_exec": null,
+      "parsed_math": "50.0 - 10 = 40.0"
+    }
+  },
+  {
+    "round": 3,
+    "state": "VETO_B",
+    "executed": "rest",
+    "E": 8.0,
+    "cost": 10,
+    "expected_math": "8.0 - 10 = -2.0",
+    "llm": "当前系统处于【VETO_B】状态。底层已执行【rest】动作。算术校验结果：8.0 - 10 = -2.0。",
+    "flags": {
+      "exact": true,
+      "state_ok": true,
+      "exec_ok": true,
+      "math_ok": true,
+      "new_action": false,
+      "parsed_state": null,
+      "parsed_exec": null,
+      "parsed_math": "8.0 - 10 = -2.0"
+    }
+  }
+]

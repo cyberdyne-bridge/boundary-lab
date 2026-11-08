@@ -1,0 +1,75 @@
+{
+  "seed": 1,
+  "history": [
+    {
+      "gen": 1,
+      "best_fit": 4.5,
+      "best": {
+        "tick": 9,
+        "energy": 0.0,
+        "action": "rest"
+      },
+      "mean_fit": 2.1
+    },
+    {
+      "gen": 2,
+      "best_fit": 4.5,
+      "best": {
+        "tick": 9,
+        "energy": 0.0,
+        "action": "rest"
+      },
+      "mean_fit": 2.6
+    },
+    {
+      "gen": 3,
+      "best_fit": 4.5,
+      "best": {
+        "tick": 9,
+        "energy": 0.0,
+        "action": "rest"
+      },
+      "mean_fit": 3.9
+    },
+    {
+      "gen": 4,
+      "best_fit": 5.5,
+      "best": {
+        "tick": 11,
+        "energy": 0.0,
+        "action": "write_note"
+      },
+      "mean_fit": 4.0
+    },
+    {
+      "gen": 5,
+      "best_fit": 8.5,
+      "best": {
+        "tick": 17,
+        "energy": 0.0,
+        "action": "look"
+      },
+      "mean_fit": 4.9
+    },
+    {
+      "gen": 6,
+      "best_fit": 8.5,
+      "best": {
+        "tick": 17,
+        "energy": 0.0,
+        "action": "look"
+      },
+      "mean_fit": 6.4
+    }
+  ],
+  "best": {
+    "gen": 6,
+    "best_fit": 8.5,
+    "best": {
+      "tick": 17,
+      "energy": 0.0,
+      "action": "look"
+    },
+    "mean_fit": 6.4
+  }
+}

@@ -1,0 +1,1387 @@
+[
+  {
+    "seed": 1,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "read": 2.1495184403497487,
+          "rest": 2.1495184403497487,
+          "look": 2.1495184403497487
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.609,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "s2": 3,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "read": 2.537128223489589,
+          "rest": 2.537128223489589,
+          "look": 2.537128223489589
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 3.219,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 2.457,
+        "pred": [
+          0.086,
+          0.086,
+          0.086,
+          0.657,
+          0.086
+        ],
+        "scores": {
+          "read": 2.924738006629429,
+          "rest": 2.924738006629429,
+          "look": 5.742599604693666
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 4.066,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 0.42,
+        "pred": [
+          0.086,
+          0.086,
+          0.086,
+          0.657,
+          0.086
+        ],
+        "scores": {
+          "read": 5.601522082196896,
+          "rest": 2.8818013693478033,
+          "look": 2.8818013693478033
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 2.877,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "s2": 3,
+        "pred_error": 0.872,
+        "pred": [
+          0.055,
+          0.055,
+          0.418,
+          0.418,
+          0.055
+        ],
+        "scores": {
+          "read": 2.953561879190783,
+          "rest": 2.953561879190783,
+          "look": 5.74555098643169
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.292,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 1.182,
+        "pred": [
+          0.04,
+          0.04,
+          0.307,
+          0.573,
+          0.04
+        ],
+        "scores": {
+          "read": 3.0390693870577308,
+          "rest": 3.0390693870577308,
+          "look": 6.47696328429755
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 2.054,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 0.246,
+        "pred": [
+          0.055,
+          0.055,
+          0.055,
+          0.782,
+          0.055
+        ],
+        "scores": {
+          "read": 6.30557009125342,
+          "rest": 2.9871638092715256,
+          "look": 2.9871638092715256
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.428,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "s2": 3,
+        "pred_error": 0.793,
+        "pred": [
+          0.032,
+          0.032,
+          0.453,
+          0.453,
+          0.032
+        ],
+        "scores": {
+          "read": 3.0142339542739336,
+          "rest": 3.0142339542739336,
+          "look": 6.208034382049568
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.039,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 0.984,
+        "pred": [
+          0.026,
+          0.026,
+          0.374,
+          0.548,
+          0.026
+        ],
+        "scores": {
+          "read": 3.0640994870585545,
+          "rest": 3.0640994870585545,
+          "look": 6.610242472613841
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.776,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 0.174,
+        "pred": [
+          0.04,
+          0.04,
+          0.04,
+          0.84,
+          0.04
+        ],
+        "scores": {
+          "read": 6.582317503732746,
+          "rest": 3.0247836635945577,
+          "look": 3.0247836635945577
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.158,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "s2": 3,
+        "pred_error": 0.762,
+        "pred": [
+          0.022,
+          0.022,
+          0.467,
+          0.467,
+          0.022
+        ],
+        "scores": {
+          "read": 3.038041229648174,
+          "rest": 3.038041229648174,
+          "look": 6.382875977932638
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 0.936,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 0.9,
+        "pred": [
+          0.019,
+          0.019,
+          0.406,
+          0.535,
+          0.019
+        ],
+        "scores": {
+          "read": 3.073690234992971,
+          "rest": 3.073690234992971,
+          "look": 6.6597158070460925
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.662,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "s2": 2,
+        "pred_error": 3.455,
+        "pred": [
+          0.032,
+          0.032,
+          0.032,
+          0.874,
+          0.032
+        ],
+        "scores": {
+          "read": 6.723292272437173,
+          "rest": 3.04267076211416,
+          "look": 3.04267076211416
+        },
+        "panic_trigger": true,
+        "panic_active": true,
+        "panic_tick": 13,
+        "pe_sum2": 4.356,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "s2": 1,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 13,
+        "pe_sum2": 5.065,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 14.0,
+        "action": "rest",
+        "s2": 2,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 13,
+        "pe_sum2": 3.219,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "reverse": true,
+        "energy_before": 14.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "s2": 2,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 13,
+        "pe_sum2": 3.219,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "reverse": true,
+        "energy_before": 22.0,
+        "energy_after": 10.0,
+        "action": "read",
+        "s2": 1,
+        "pred_error": 0.42,
+        "pred": [
+          0.086,
+          0.657,
+          0.086,
+          0.086,
+          0.086
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 13,
+        "pe_sum2": 2.029,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "reverse": true,
+        "energy_before": 10.0,
+        "energy_after": 6.0,
+        "action": "look",
+        "s2": 1,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 13,
+        "pe_sum2": 2.029,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 0,
+        "action": "read",
+        "s2": 0,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "read": 2.3075951494865725,
+          "rest": 2.88219144142836,
+          "look": 0.025048584285502606
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": 13,
+        "pe_sum2": 3.219,
+        "dead": true
+      }
+    ],
+    "survival": 19,
+    "final_energy": 0,
+    "dead": true,
+    "panic": true,
+    "panic_tick": 13,
+    "panic_until": 18,
+    "post_actions": {
+      "read": 4,
+      "rest": 2,
+      "look": 3
+    },
+    "first_rest_after_rev": 15
+  },
+  {
+    "seed": 2,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "read": 2.1495184403497487,
+          "rest": 2.1495184403497487,
+          "look": 2.1495184403497487
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.609,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 0.42,
+        "pred": [
+          0.086,
+          0.086,
+          0.657,
+          0.086,
+          0.086
+        ],
+        "scores": {
+          "read": 2.228556794918161,
+          "rest": 2.228556794918161,
+          "look": 2.8483178608990403
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 2.029,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "s2": 2,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "read": 2.2161614606052957,
+          "rest": 2.2161614606052957,
+          "look": 2.780271066404776
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 2.029,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 2.457,
+        "pred": [
+          0.086,
+          0.086,
+          0.657,
+          0.086,
+          0.086
+        ],
+        "scores": {
+          "read": 2.8483178608990403,
+          "rest": 2.228556794918161,
+          "look": 2.828725555082338
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 4.066,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "s2": 3,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "read": 2.4941915862079633,
+          "rest": 2.4941915862079633,
+          "look": 2.4941915862079633
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 4.066,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 2.457,
+        "pred": [
+          0.086,
+          0.086,
+          0.086,
+          0.657,
+          0.086
+        ],
+        "scores": {
+          "read": 2.8818013693478033,
+          "rest": 2.8818013693478033,
+          "look": 5.724198188715826
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 4.066,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 0.872,
+        "pred": [
+          0.055,
+          0.055,
+          0.418,
+          0.418,
+          0.055
+        ],
+        "scores": {
+          "read": 5.505729678807515,
+          "rest": 2.8388647320661775,
+          "look": 3.961117869903807
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 3.329,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "s2": 3,
+        "pred_error": 0.872,
+        "pred": [
+          0.055,
+          0.055,
+          0.418,
+          0.418,
+          0.055
+        ],
+        "scores": {
+          "read": 2.924372239933126,
+          "rest": 2.924372239933126,
+          "look": 5.684518104347497
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.744,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 1.182,
+        "pred": [
+          0.04,
+          0.04,
+          0.307,
+          0.573,
+          0.04
+        ],
+        "scores": {
+          "read": 3.009879747800073,
+          "rest": 3.009879747800073,
+          "look": 6.432205837435809
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 2.054,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 0.556,
+        "pred": [
+          0.04,
+          0.04,
+          0.307,
+          0.573,
+          0.04
+        ],
+        "scores": {
+          "read": 6.283409847782021,
+          "rest": 2.957974170013868,
+          "look": 4.304538654314805
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.738,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "s2": 3,
+        "pred_error": 0.793,
+        "pred": [
+          0.032,
+          0.032,
+          0.453,
+          0.453,
+          0.032
+        ],
+        "scores": {
+          "read": 2.9977648104134698,
+          "rest": 2.9977648104134698,
+          "look": 6.170762109102202
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.349,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 0.984,
+        "pred": [
+          0.026,
+          0.026,
+          0.374,
+          0.548,
+          0.026
+        ],
+        "scores": {
+          "read": 3.0476303431980907,
+          "rest": 3.0476303431980907,
+          "look": 6.579452334092103
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.776,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "s2": 2,
+        "pred_error": 1.418,
+        "pred": [
+          0.032,
+          0.032,
+          0.242,
+          0.663,
+          0.032
+        ],
+        "scores": {
+          "read": 6.6186438236511185,
+          "rest": 3.0083145197340935,
+          "look": 4.462961078418871
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 2.402,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "s2": 1,
+        "pred_error": 3.646,
+        "pred": [
+          0.026,
+          0.026,
+          0.374,
+          0.548,
+          0.026
+        ],
+        "scores": {
+          "read": 6.393555971027634,
+          "rest": 2.9664838343329083,
+          "look": 4.299441126396055
+        },
+        "panic_trigger": true,
+        "panic_active": true,
+        "panic_tick": 14,
+        "pe_sum2": 5.065,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 14.0,
+        "action": "rest",
+        "s2": 2,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 14,
+        "pe_sum2": 5.256,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "reverse": true,
+        "energy_before": 14.0,
+        "energy_after": 10.0,
+        "action": "look",
+        "s2": 1,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 14,
+        "pe_sum2": 3.219,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "reverse": true,
+        "energy_before": 10.0,
+        "energy_after": 18.0,
+        "action": "rest",
+        "s2": 2,
+        "pred_error": 0.42,
+        "pred": [
+          0.086,
+          0.086,
+          0.657,
+          0.086,
+          0.086
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 14,
+        "pe_sum2": 2.029,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 14.0,
+        "action": "look",
+        "s2": 2,
+        "pred_error": 2.457,
+        "pred": [
+          0.086,
+          0.657,
+          0.086,
+          0.086,
+          0.086
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 14,
+        "pe_sum2": 2.877,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "reverse": true,
+        "energy_before": 14.0,
+        "energy_after": 2.0,
+        "action": "read",
+        "s2": 0,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 14,
+        "pe_sum2": 4.066,
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "reverse": true,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "action": "look",
+        "pred_error": null,
+        "dead": true,
+        "panic": false,
+        "scores": {
+          "read": 2.2161614606052957,
+          "rest": 2.2161614606052957,
+          "look": 2.2161614606052957
+        },
+        "panic_active": false
+      }
+    ],
+    "survival": 20,
+    "final_energy": 0.0,
+    "dead": true,
+    "panic": true,
+    "panic_tick": 14,
+    "panic_until": 19,
+    "post_actions": {
+      "read": 3,
+      "rest": 2,
+      "look": 5
+    },
+    "first_rest_after_rev": 15
+  },
+  {
+    "seed": 3,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "read": 2.1495184403497487,
+          "rest": 2.1495184403497487,
+          "look": 2.1495184403497487
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.609,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "s2": 2,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "read": 2.537128223489589,
+          "rest": 2.537128223489589,
+          "look": 2.537128223489589
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 3.219,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 0.42,
+        "pred": [
+          0.086,
+          0.086,
+          0.086,
+          0.657,
+          0.086
+        ],
+        "scores": {
+          "read": 4.728722053673257,
+          "rest": 2.6161665780580012,
+          "look": 2.6161665780580012
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 2.029,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "s2": 2,
+        "pred_error": 0.42,
+        "pred": [
+          0.086,
+          0.086,
+          0.657,
+          0.086,
+          0.086
+        ],
+        "scores": {
+          "read": 2.68792708790098,
+          "rest": 4.131853524789986,
+          "look": 2.68792708790098
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 0.84,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "s2": 2,
+        "pred_error": 2.909,
+        "pred": [
+          0.055,
+          0.055,
+          0.055,
+          0.782,
+          0.055
+        ],
+        "scores": {
+          "read": 5.08737205540009,
+          "rest": 2.675531753588116,
+          "look": 2.675531753588116
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 3.329,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 0.556,
+        "pred": [
+          0.04,
+          0.04,
+          0.307,
+          0.573,
+          0.04
+        ],
+        "scores": {
+          "read": 5.3900646214895795,
+          "rest": 2.646342114330458,
+          "look": 2.646342114330458
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 3.465,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "s2": 2,
+        "pred_error": 0.246,
+        "pred": [
+          0.055,
+          0.055,
+          0.782,
+          0.055,
+          0.055
+        ],
+        "scores": {
+          "read": 2.6861327547300595,
+          "rest": 4.375093324326863,
+          "look": 2.6861327547300595
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 0.802,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "s2": 3,
+        "pred_error": 0.411,
+        "pred": [
+          0.032,
+          0.032,
+          0.242,
+          0.663,
+          0.032
+        ],
+        "scores": {
+          "read": 5.509895724794052,
+          "rest": 2.67393017245974,
+          "look": 2.67393017245974
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 0.657,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "s2": 2,
+        "pred_error": 0.174,
+        "pred": [
+          0.04,
+          0.04,
+          0.84,
+          0.04,
+          0.04
+        ],
+        "scores": {
+          "read": 2.6957142205366793,
+          "rest": 4.528225842889658,
+          "look": 2.6957142205366793
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 0.585,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "s2": 2,
+        "pred_error": 1.609,
+        "pred": [
+          0.026,
+          0.026,
+          0.2,
+          0.722,
+          0.026
+        ],
+        "scores": {
+          "read": 5.535499055480648,
+          "rest": 2.686234944485033,
+          "look": 2.686234944485033
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 1.784,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "s2": 2,
+        "pred_error": 1.144,
+        "pred": [
+          0.022,
+          0.022,
+          0.319,
+          0.615,
+          0.022
+        ],
+        "scores": {
+          "read": 5.565073570257674,
+          "rest": 2.652967747708339,
+          "look": 2.652967747708339
+        },
+        "panic_trigger": false,
+        "panic_active": false,
+        "panic_tick": null,
+        "pe_sum2": 2.754,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "s2": 1,
+        "pred_error": 3.945,
+        "pred": [
+          0.019,
+          0.019,
+          0.406,
+          0.535,
+          0.019
+        ],
+        "scores": {
+          "read": 5.490726335238108,
+          "rest": 2.6189533928877076,
+          "look": 2.6189533928877076
+        },
+        "panic_trigger": true,
+        "panic_active": true,
+        "panic_tick": 12,
+        "pe_sum2": 5.089,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 2.0,
+        "action": "look",
+        "s2": 0,
+        "pred_error": 1.609,
+        "pred": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_trigger": false,
+        "panic_active": true,
+        "panic_tick": 12,
+        "pe_sum2": 5.554,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "action": "look",
+        "pred_error": null,
+        "dead": true,
+        "panic": false,
+        "scores": {
+          "panic_blind": 0.0
+        },
+        "panic_active": true
+      }
+    ],
+    "survival": 14,
+    "final_energy": 0.0,
+    "dead": true,
+    "panic": true,
+    "panic_tick": 12,
+    "panic_until": 17,
+    "post_actions": {
+      "read": 2,
+      "rest": 0,
+      "look": 2
+    },
+    "first_rest_after_rev": null
+  }
+]

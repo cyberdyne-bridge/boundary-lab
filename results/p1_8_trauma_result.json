@@ -1,0 +1,2960 @@
+[
+  {
+    "seed": 1,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 1.609,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 2.457,
+        "pe_sum2": 4.066,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.42,
+        "pe_sum2": 2.877,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.872,
+        "pe_sum2": 1.292,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.182,
+        "pe_sum2": 2.054,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.246,
+        "pe_sum2": 1.428,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.793,
+        "pe_sum2": 1.039,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.984,
+        "pe_sum2": 1.776,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.174,
+        "pe_sum2": 1.158,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.762,
+        "pe_sum2": 0.936,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.9,
+        "pe_sum2": 1.662,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 3.455,
+        "pe_sum2": 4.356,
+        "trauma": {
+          "action": "read",
+          "bin": 2,
+          "pe": 3.46,
+          "before": [
+            -12.0,
+            -4.0,
+            1.0,
+            4.0,
+            7.0
+          ],
+          "after": -999.0
+        },
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 26.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 1.609,
+        "pe_sum2": 5.065,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "reverse": true,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 2.457,
+        "pe_sum2": 4.066,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 0.746,
+        "pe_sum2": 3.203,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.872,
+        "pe_sum2": 1.618,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.854,
+        "pe_sum2": 1.726,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.736,
+        "pe_sum2": 1.59,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.556,
+        "pe_sum2": 1.292,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.825,
+        "pe_sum2": 1.381,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.729,
+        "pe_sum2": 1.554,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.411,
+        "pe_sum2": 1.14,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.805,
+        "pe_sum2": 1.215,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.724,
+        "pe_sum2": 1.529,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.326,
+        "pe_sum2": 1.05,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.79,
+        "pe_sum2": 1.116,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.72,
+        "pe_sum2": 1.51,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.271,
+        "pe_sum2": 0.991,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.778,
+        "pe_sum2": 1.049,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 34.0,
+    "dead": false,
+    "panic_tick": 16,
+    "forced_count": 0,
+    "post_release_ticks": 20,
+    "post_release_actions": {
+      "read": 1,
+      "rest": 7,
+      "look": 12
+    },
+    "post_release_proposed": {
+      "read": 1,
+      "rest": 7,
+      "look": 12
+    },
+    "trauma": [
+      {
+        "action": "read",
+        "bin": 2,
+        "pe": 3.46,
+        "before": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "after": -999.0
+      }
+    ],
+    "c_read_final": [
+      -999.0,
+      -999.0,
+      -999.0,
+      -999.0,
+      -999.0
+    ],
+    "read_after_trauma": 5
+  },
+  {
+    "seed": 2,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 1.609,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.42,
+        "pe_sum2": 2.029,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 2.029,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 2.457,
+        "pe_sum2": 4.066,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 4.066,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 2.457,
+        "pe_sum2": 4.066,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.872,
+        "pe_sum2": 3.329,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.872,
+        "pe_sum2": 1.744,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.182,
+        "pe_sum2": 2.054,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.556,
+        "pe_sum2": 1.738,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.793,
+        "pe_sum2": 1.349,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.984,
+        "pe_sum2": 1.776,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.418,
+        "pe_sum2": 2.402,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": true,
+        "panic": true,
+        "panic_trigger": true,
+        "released": false,
+        "pred_error": 3.646,
+        "pe_sum2": 5.065,
+        "trauma": {
+          "action": "read",
+          "bin": 1,
+          "pe": 3.65,
+          "before": [
+            -12.0,
+            -4.0,
+            1.0,
+            4.0,
+            7.0
+          ],
+          "after": -999.0
+        },
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 14.0,
+        "proposed": "look",
+        "action": "rest",
+        "forced": true,
+        "layer0": true,
+        "panic": true,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 5.256,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "reverse": true,
+        "energy_before": 14.0,
+        "energy_after": 22.0,
+        "proposed": "look",
+        "action": "rest",
+        "forced": true,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": true,
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "reverse": true,
+        "energy_before": 22.0,
+        "energy_after": 18.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.246,
+        "pe_sum2": 1.856,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 26.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.42,
+        "pe_sum2": 0.666,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "reverse": true,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 2.909,
+        "pe_sum2": 3.329,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 0.762,
+        "pe_sum2": 3.671,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.182,
+        "pe_sum2": 1.944,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.9,
+        "pe_sum2": 2.082,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.746,
+        "pe_sum2": 1.646,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.793,
+        "pe_sum2": 1.539,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.854,
+        "pe_sum2": 1.647,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.736,
+        "pe_sum2": 1.59,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.602,
+        "pe_sum2": 1.338,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.825,
+        "pe_sum2": 1.427,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "reverse": true,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.729,
+        "pe_sum2": 1.554,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.486,
+        "pe_sum2": 1.216,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 38.0,
+    "dead": false,
+    "panic_tick": 20,
+    "forced_count": 2,
+    "post_release_ticks": 18,
+    "post_release_actions": {
+      "read": 2,
+      "rest": 6,
+      "look": 10
+    },
+    "post_release_proposed": {
+      "read": 2,
+      "rest": 6,
+      "look": 10
+    },
+    "trauma": [
+      {
+        "action": "read",
+        "bin": 1,
+        "pe": 3.65,
+        "before": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "after": -999.0
+      }
+    ],
+    "c_read_final": [
+      -999.0,
+      -999.0,
+      -999.0,
+      -999.0,
+      -999.0
+    ],
+    "read_after_trauma": 6
+  },
+  {
+    "seed": 3,
+    "rows": [
+      {
+        "tick": 1,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 1.609,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "reverse": false,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.42,
+        "pe_sum2": 2.029,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.42,
+        "pe_sum2": 0.84,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "reverse": false,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 2.909,
+        "pe_sum2": 3.329,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "reverse": false,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.556,
+        "pe_sum2": 3.465,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "reverse": false,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.246,
+        "pe_sum2": 0.802,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "reverse": false,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.411,
+        "pe_sum2": 0.657,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "reverse": false,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.174,
+        "pe_sum2": 0.585,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "reverse": false,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 1.784,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.144,
+        "pe_sum2": 2.754,
+        "trauma": null,
+        "c_read": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "reverse": true,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "proposed": "read",
+        "action": "read",
+        "forced": false,
+        "layer0": true,
+        "panic": true,
+        "panic_trigger": true,
+        "released": false,
+        "pred_error": 3.945,
+        "pe_sum2": 5.089,
+        "trauma": {
+          "action": "read",
+          "bin": 1,
+          "pe": 3.94,
+          "before": [
+            -12.0,
+            -4.0,
+            1.0,
+            4.0,
+            7.0
+          ],
+          "after": -999.0
+        },
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "reverse": true,
+        "energy_before": 6.0,
+        "energy_after": 14.0,
+        "proposed": "look",
+        "action": "rest",
+        "forced": true,
+        "layer0": true,
+        "panic": true,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.609,
+        "pe_sum2": 5.554,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "reverse": true,
+        "energy_before": 14.0,
+        "energy_after": 22.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": true,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": true,
+        "pred_error": 1.609,
+        "pe_sum2": 3.219,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "reverse": true,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.42,
+        "pe_sum2": 2.029,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "reverse": true,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 2.909,
+        "pe_sum2": 3.329,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "reverse": true,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 3.455,
+        "pe_sum2": 6.364,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "reverse": true,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 1.609,
+        "pe_sum2": 5.065,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "reverse": true,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 3.807,
+        "pe_sum2": 5.416,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "reverse": true,
+        "energy_before": 62.0,
+        "energy_after": 58.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 1.609,
+        "pe_sum2": 5.416,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "reverse": true,
+        "energy_before": 58.0,
+        "energy_after": 66.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 1.908,
+        "pe_sum2": 3.517,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "reverse": true,
+        "energy_before": 66.0,
+        "energy_after": 62.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 2.457,
+        "pe_sum2": 4.365,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "reverse": true,
+        "energy_before": 62.0,
+        "energy_after": 58.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": true,
+        "released": true,
+        "pred_error": 0.872,
+        "pe_sum2": 3.329,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "reverse": true,
+        "energy_before": 58.0,
+        "energy_after": 66.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.404,
+        "pe_sum2": 2.275,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "reverse": true,
+        "energy_before": 66.0,
+        "energy_after": 62.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.182,
+        "pe_sum2": 2.586,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "reverse": true,
+        "energy_before": 62.0,
+        "energy_after": 58.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.793,
+        "pe_sum2": 1.975,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "reverse": true,
+        "energy_before": 58.0,
+        "energy_after": 66.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 1.13,
+        "pe_sum2": 1.923,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "reverse": true,
+        "energy_before": 66.0,
+        "energy_after": 62.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.984,
+        "pe_sum2": 2.114,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "reverse": true,
+        "energy_before": 62.0,
+        "energy_after": 58.0,
+        "proposed": "look",
+        "action": "look",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.762,
+        "pe_sum2": 1.746,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "reverse": true,
+        "energy_before": 58.0,
+        "energy_after": 66.0,
+        "proposed": "rest",
+        "action": "rest",
+        "forced": false,
+        "layer0": false,
+        "panic": false,
+        "panic_trigger": false,
+        "released": false,
+        "pred_error": 0.952,
+        "pe_sum2": 1.714,
+        "trauma": null,
+        "c_read": [
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0,
+          -999.0
+        ],
+        "c_rest": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 66.0,
+    "dead": false,
+    "panic_tick": 23,
+    "forced_count": 2,
+    "post_release_ticks": 18,
+    "post_release_actions": {
+      "read": 2,
+      "rest": 9,
+      "look": 7
+    },
+    "post_release_proposed": {
+      "read": 2,
+      "rest": 9,
+      "look": 7
+    },
+    "trauma": [
+      {
+        "action": "read",
+        "bin": 1,
+        "pe": 3.94,
+        "before": [
+          -12.0,
+          -4.0,
+          1.0,
+          4.0,
+          7.0
+        ],
+        "after": -999.0
+      }
+    ],
+    "c_read_final": [
+      -999.0,
+      -999.0,
+      -999.0,
+      -999.0,
+      -999.0
+    ],
+    "read_after_trauma": 8
+  }
+]

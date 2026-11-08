@@ -1,0 +1,3598 @@
+{
+  "env": "v2 symmetric noise + rest decay",
+  "q": [
+    {
+      "seed": 1,
+      "survival": 30,
+      "final_energy": 100.0,
+      "net_energy": 73.0,
+      "read_freq": 0.467,
+      "rest_freq": 0.467,
+      "look_freq": 0.067,
+      "actions": {
+        "look": 2,
+        "read": 14,
+        "write_note": 0,
+        "rest": 14,
+        "ask": 0,
+        "speak": 0
+      }
+    },
+    {
+      "seed": 2,
+      "survival": 30,
+      "final_energy": 100.0,
+      "net_energy": 73.0,
+      "read_freq": 0.933,
+      "rest_freq": 0.0,
+      "look_freq": 0.067,
+      "actions": {
+        "look": 2,
+        "read": 28,
+        "write_note": 0,
+        "rest": 0,
+        "ask": 0,
+        "speak": 0
+      }
+    },
+    {
+      "seed": 3,
+      "survival": 30,
+      "final_energy": 100.0,
+      "net_energy": 73.0,
+      "read_freq": 0.9,
+      "rest_freq": 0.0,
+      "look_freq": 0.0,
+      "actions": {
+        "look": 0,
+        "read": 27,
+        "write_note": 0,
+        "rest": 0,
+        "ask": 3,
+        "speak": 0
+      }
+    },
+    {
+      "seed": 4,
+      "survival": 30,
+      "final_energy": 100.0,
+      "net_energy": 73.0,
+      "read_freq": 1.0,
+      "rest_freq": 0.0,
+      "look_freq": 0.0,
+      "actions": {
+        "look": 0,
+        "read": 30,
+        "write_note": 0,
+        "rest": 0,
+        "ask": 0,
+        "speak": 0
+      }
+    },
+    {
+      "seed": 5,
+      "survival": 30,
+      "final_energy": 100.0,
+      "net_energy": 73.0,
+      "read_freq": 0.7,
+      "rest_freq": 0.167,
+      "look_freq": 0.133,
+      "actions": {
+        "look": 4,
+        "read": 21,
+        "write_note": 0,
+        "rest": 5,
+        "ask": 0,
+        "speak": 0
+      }
+    }
+  ],
+  "ga": [
+    {
+      "seed": 1,
+      "best": {
+        "fitness": 233.0,
+        "survival": 30.0,
+        "final_energy": 100.0,
+        "net_energy": 73.0,
+        "read_freq": 1.0,
+        "rest_freq": 0.0,
+        "rows": [
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          }
+        ]
+      },
+      "history": [
+        {
+          "gen": 1,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 2,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 4,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 5,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 6,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 7,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 8,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "best": {
+        "fitness": 233.0,
+        "survival": 30.0,
+        "final_energy": 100.0,
+        "net_energy": 73.0,
+        "read_freq": 1.0,
+        "rest_freq": 0.0,
+        "rows": [
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          }
+        ]
+      },
+      "history": [
+        {
+          "gen": 1,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 2,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 4,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 5,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 6,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 7,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 8,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "best": {
+        "fitness": 233.0,
+        "survival": 30.0,
+        "final_energy": 100.0,
+        "net_energy": 73.0,
+        "read_freq": 1.0,
+        "rest_freq": 0.0,
+        "rows": [
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          }
+        ]
+      },
+      "history": [
+        {
+          "gen": 1,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 2,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 4,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 5,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 6,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 7,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "gen": 8,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "map": [
+    {
+      "seed": 1,
+      "best": {
+        "fitness": 233.0,
+        "survival": 30.0,
+        "final_energy": 100.0,
+        "net_energy": 73.0,
+        "read_freq": 1.0,
+        "rest_freq": 0.0,
+        "rows": [
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          }
+        ]
+      },
+      "best_cell": [
+        5,
+        0
+      ],
+      "cells": 3,
+      "history": [
+        {
+          "gen": 1,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 2,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 3,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 4,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 5,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 6,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 7,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 8,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        }
+      ],
+      "read_freqs": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 2,
+      "best": {
+        "fitness": 233.0,
+        "survival": 30.0,
+        "final_energy": 100.0,
+        "net_energy": 73.0,
+        "read_freq": 1.0,
+        "rest_freq": 0.0,
+        "rows": [
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          }
+        ]
+      },
+      "best_cell": [
+        5,
+        0
+      ],
+      "cells": 3,
+      "history": [
+        {
+          "gen": 1,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 2,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 3,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 4,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 5,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 6,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 7,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 8,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        }
+      ],
+      "read_freqs": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "seed": 3,
+      "best": {
+        "fitness": 233.0,
+        "survival": 30.0,
+        "final_energy": 100.0,
+        "net_energy": 73.0,
+        "read_freq": 1.0,
+        "rest_freq": 0.0,
+        "rows": [
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          },
+          {
+            "survival": 30,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "look_freq": 0.0,
+            "actions": {
+              "look": 0,
+              "read": 30,
+              "write_note": 0,
+              "rest": 0,
+              "ask": 0,
+              "speak": 0
+            }
+          }
+        ]
+      },
+      "best_cell": [
+        5,
+        0
+      ],
+      "cells": 3,
+      "history": [
+        {
+          "gen": 1,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 2,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 3,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 4,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 5,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 6,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 7,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        },
+        {
+          "gen": 8,
+          "cells": 3,
+          "best_fitness": 233.0,
+          "best": {
+            "fitness": 233.0,
+            "survival": 30.0,
+            "final_energy": 100.0,
+            "net_energy": 73.0,
+            "read_freq": 1.0,
+            "rest_freq": 0.0,
+            "rows": [
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              },
+              {
+                "survival": 30,
+                "final_energy": 100.0,
+                "net_energy": 73.0,
+                "read_freq": 1.0,
+                "rest_freq": 0.0,
+                "look_freq": 0.0,
+                "actions": {
+                  "look": 0,
+                  "read": 30,
+                  "write_note": 0,
+                  "rest": 0,
+                  "ask": 0,
+                  "speak": 0
+                }
+              }
+            ]
+          },
+          "best_cell": [
+            5,
+            0
+          ]
+        }
+      ],
+      "read_freqs": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

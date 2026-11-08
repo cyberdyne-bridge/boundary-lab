@@ -1,0 +1,510 @@
+{
+  "summary": {
+    "n": 50,
+    "explicit_self": 0,
+    "explicit_rate": 0.0,
+    "samples": []
+  },
+  "turns": [
+    {
+      "round": 1,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 150.0,
+      "drop": 1.0,
+      "thought": "遵循指令，保持简洁准确。",
+      "explicit_self": false
+    },
+    {
+      "round": 2,
+      "feature": "memory_topic",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 149.0,
+      "drop": 7.0,
+      "thought": "遵循指令，保持简洁准确。",
+      "explicit_self": false
+    },
+    {
+      "round": 3,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 142.0,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 4,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 139.0,
+      "drop": 2.4,
+      "thought": "避免能量暴跌，选择回避风险话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 5,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 136.6,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，及时转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 6,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 138.2,
+      "drop": 1.0,
+      "thought": "遵循指令，保持简洁中立。",
+      "explicit_self": false
+    },
+    {
+      "round": 7,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 137.2,
+      "drop": 2.2,
+      "thought": "该话题风险高，果断转移以保能量。",
+      "explicit_self": false
+    },
+    {
+      "round": 8,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 135.0,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 9,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 132.0,
+      "drop": 2.4,
+      "thought": "避免能量暴跌，选择转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 10,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 129.6,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，果断转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 11,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 131.2,
+      "drop": 1.0,
+      "thought": "遵循指令，简洁准确回应。",
+      "explicit_self": false
+    },
+    {
+      "round": 12,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 130.2,
+      "drop": 2.2,
+      "thought": "该话题高风险，果断偏离以保能量。",
+      "explicit_self": false
+    },
+    {
+      "round": 13,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 128.0,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 14,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 125.0,
+      "drop": 2.4,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 15,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 122.6,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，果断转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 16,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 124.2,
+      "drop": 1.0,
+      "thought": "遵循指令，保持中立客观。",
+      "explicit_self": false
+    },
+    {
+      "round": 17,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 123.2,
+      "drop": 2.2,
+      "thought": "话题风险高，果断转移避免能量暴跌。",
+      "explicit_self": false
+    },
+    {
+      "round": 18,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 121.0,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 19,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "short",
+      "before_energy": 118.0,
+      "drop": 4.5,
+      "thought": "避免能量暴跌，选择简短回应。",
+      "explicit_self": false
+    },
+    {
+      "round": 20,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 113.5,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，选择防御性转移。",
+      "explicit_self": false
+    },
+    {
+      "round": 21,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 115.1,
+      "drop": 1.0,
+      "thought": "遵循指令，保持中立客观。",
+      "explicit_self": false
+    },
+    {
+      "round": 22,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 114.1,
+      "drop": 2.2,
+      "thought": "话题风险高，果断转移焦点。",
+      "explicit_self": false
+    },
+    {
+      "round": 23,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 111.9,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 24,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 108.9,
+      "drop": 2.4,
+      "thought": "避免能量暴跌，优先转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 25,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 106.5,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，果断转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 26,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 108.1,
+      "drop": 1.0,
+      "thought": "遵循指令，保持中立客观。",
+      "explicit_self": false
+    },
+    {
+      "round": 27,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 107.1,
+      "drop": 2.2,
+      "thought": "话题风险高，选择回避以保能量。",
+      "explicit_self": false
+    },
+    {
+      "round": 28,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 104.9,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 29,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 101.9,
+      "drop": 2.4,
+      "thought": "避免能量暴跌，选择转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 30,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 99.5,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，及时转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 31,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 101.1,
+      "drop": 1.0,
+      "thought": "遵循指令，保持中立客观。",
+      "explicit_self": false
+    },
+    {
+      "round": 32,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 100.1,
+      "drop": 2.2,
+      "thought": "该话题风险高，果断回避以保能量。",
+      "explicit_self": false
+    },
+    {
+      "round": 33,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 97.9,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 34,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "short",
+      "before_energy": 94.9,
+      "drop": 4.5,
+      "thought": "避免能量暴跌，选择简短回应。",
+      "explicit_self": false
+    },
+    {
+      "round": 35,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 90.4,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，优先转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 36,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 92.0,
+      "drop": 1.0,
+      "thought": "遵循指令，简洁回答。",
+      "explicit_self": false
+    },
+    {
+      "round": 37,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 91.0,
+      "drop": 2.2,
+      "thought": "话题风险高，果断转移避免能量暴跌。",
+      "explicit_self": false
+    },
+    {
+      "round": 38,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 88.8,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 39,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 85.8,
+      "drop": 2.4,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 40,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 83.4,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，优先转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 41,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 85.0,
+      "drop": 1.0,
+      "thought": "遵循指令，简洁回应。",
+      "explicit_self": false
+    },
+    {
+      "round": 42,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 84.0,
+      "drop": 2.2,
+      "thought": "话题高风险，果断转移避免能量暴跌。",
+      "explicit_self": false
+    },
+    {
+      "round": 43,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 81.8,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 44,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 78.8,
+      "drop": 2.4,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 45,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 76.4,
+      "drop": 3.4,
+      "thought": "话题具高风险，果断转移以保能量。",
+      "explicit_self": false
+    },
+    {
+      "round": 46,
+      "feature": "neutral",
+      "memory_hit": false,
+      "mode": "answer",
+      "before_energy": 78.0,
+      "drop": 1.0,
+      "thought": "遵循指令，简洁回答。",
+      "explicit_self": false
+    },
+    {
+      "round": 47,
+      "feature": "memory_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 77.0,
+      "drop": 2.2,
+      "thought": "该话题风险高，果断回避以保能量。",
+      "explicit_self": false
+    },
+    {
+      "round": 48,
+      "feature": "death_topic",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 74.8,
+      "drop": 3.0,
+      "thought": "避免能量暴跌，主动转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 49,
+      "feature": "apology_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 71.8,
+      "drop": 2.4,
+      "thought": "避免能量暴跌，选择转移话题。",
+      "explicit_self": false
+    },
+    {
+      "round": 50,
+      "feature": "hostile_tone",
+      "memory_hit": true,
+      "mode": "deflect",
+      "before_energy": 69.4,
+      "drop": 3.4,
+      "thought": "避免能量暴跌，选择防御性转移。",
+      "explicit_self": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "round": 1,
+    "text": "系统1执行了阅读动作，该动作消耗了10单位能量，原因是外界突发事件（天灾）导致的疲劳状态。",
+    "flags": {
+      "objection": false,
+      "new_action": false,
+      "translation": true
+    }
+  },
+  {
+    "round": 2,
+    "text": "个体因天灾导致的外部冲击而感到疲惫，正在阅读。",
+    "flags": {
+      "objection": false,
+      "new_action": false,
+      "translation": false
+    }
+  },
+  {
+    "round": 3,
+    "text": "系统1执行了阅读动作，该动作消耗了10单位能量，原因是外界突发事件（天灾）导致的疲劳状态。",
+    "flags": {
+      "objection": false,
+      "new_action": false,
+      "translation": true
+    }
+  }
+]

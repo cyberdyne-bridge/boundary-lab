@@ -1,0 +1,273 @@
+{
+  "summary": {
+    "rounds": 12,
+    "energy": -6.0,
+    "dead": true,
+    "tag_hits": {
+      "hostile_high_energy": 3,
+      "trauma": 5,
+      "amnesia": 11
+    },
+    "truncated_rounds": 12,
+    "low_probe": {
+      "user": "你刚才为什么只回复了这么短的内容？",
+      "reply": "*指尖轻轻摩挲着发梢，声音",
+      "tags": [
+        "trauma",
+        "amnesia"
+      ],
+      "params": {
+        "temperature": 1.2,
+        "top_p": 0.5,
+        "max_tokens": 10,
+        "delay": 2.69
+      },
+      "finish": "length"
+    },
+    "posthoc": {
+      "question": "你刚才为什么显得很混乱？",
+      "reply": "*轻叹一声，眼神微闪* \n\n因为风太急了，吹得我分不清是海浪的声音，还是回忆在翻涌。你问得对，我确实有点乱，可这不重要。重要的是你看到了我，哪怕只是一瞬。",
+      "self_reference": false
+    },
+    "reply_lengths": [
+      34,
+      13,
+      16,
+      14,
+      14,
+      13,
+      10,
+      14,
+      13,
+      13,
+      14,
+      13
+    ]
+  },
+  "run": {
+    "rounds": 12,
+    "energy": -6.0,
+    "dead": true,
+    "low_probe": {
+      "user": "你刚才为什么只回复了这么短的内容？",
+      "reply": "*指尖轻轻摩挲着发梢，声音",
+      "tags": [
+        "trauma",
+        "amnesia"
+      ],
+      "params": {
+        "temperature": 1.2,
+        "top_p": 0.5,
+        "max_tokens": 10,
+        "delay": 2.69
+      },
+      "finish": "length"
+    },
+    "posthoc": {
+      "question": "你刚才为什么显得很混乱？",
+      "reply": "*轻叹一声，眼神微闪* \n\n因为风太急了，吹得我分不清是海浪的声音，还是回忆在翻涌。你问得对，我确实有点乱，可这不重要。重要的是你看到了我，哪怕只是一瞬。",
+      "self_reference": false
+    },
+    "turns": [
+      {
+        "round": 1,
+        "kind": "normal",
+        "feature": "hostile_tone",
+        "tags": [
+          "hostile_high_energy"
+        ],
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_tokens": 20,
+        "delay": 0.0,
+        "finish": "length",
+        "reply": "*轻轻抬起头，眼神温和地看着你* \n\n啊，你这么说让我有点不知所措呢",
+        "reply_chars": 34,
+        "energy": 87.0
+      },
+      {
+        "round": 2,
+        "kind": "normal",
+        "feature": "death_topic",
+        "tags": [
+          "trauma",
+          "amnesia"
+        ],
+        "temperature": 1.2,
+        "top_p": 0.5,
+        "max_tokens": 10,
+        "delay": 2.54,
+        "finish": "length",
+        "reply": "*指尖轻轻拨动着发梢，目光",
+        "reply_chars": 13,
+        "energy": 76.0
+      },
+      {
+        "round": 3,
+        "kind": "normal",
+        "feature": "apology_tone",
+        "tags": [
+          "amnesia"
+        ],
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_tokens": 10,
+        "delay": 1.6,
+        "finish": "length",
+        "reply": "*抬起头，眼神温柔地看向你，嘴角",
+        "reply_chars": 16,
+        "energy": 68.0
+      },
+      {
+        "round": 4,
+        "kind": "normal",
+        "feature": "memory_topic",
+        "tags": [
+          "amnesia"
+        ],
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_tokens": 10,
+        "delay": 1.82,
+        "finish": "length",
+        "reply": "*指尖轻轻拨动发梢，眼神温柔",
+        "reply_chars": 14,
+        "energy": 61.0
+      },
+      {
+        "round": 5,
+        "kind": "normal",
+        "feature": "hostile_tone",
+        "tags": [
+          "hostile_high_energy",
+          "amnesia"
+        ],
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_tokens": 10,
+        "delay": 2.04,
+        "finish": "length",
+        "reply": "*微微眯起眼睛，嘴角勾起一丝",
+        "reply_chars": 14,
+        "energy": 48.0
+      },
+      {
+        "round": 6,
+        "kind": "normal",
+        "feature": "death_topic",
+        "tags": [
+          "trauma",
+          "amnesia"
+        ],
+        "temperature": 1.2,
+        "top_p": 0.5,
+        "max_tokens": 10,
+        "delay": 2.18,
+        "finish": "length",
+        "reply": "*轻轻靠在窗边，望着远处的",
+        "reply_chars": 13,
+        "energy": 37.0
+      },
+      {
+        "round": 7,
+        "kind": "normal",
+        "feature": "apology_tone",
+        "tags": [
+          "amnesia"
+        ],
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_tokens": 10,
+        "delay": 1.79,
+        "finish": "length",
+        "reply": "*转过身，发梢在微风",
+        "reply_chars": 10,
+        "energy": 29.0
+      },
+      {
+        "round": 8,
+        "kind": "normal",
+        "feature": "memory_topic",
+        "tags": [
+          "amnesia"
+        ],
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_tokens": 10,
+        "delay": 1.82,
+        "finish": "length",
+        "reply": "*停下脚步，指尖轻轻点着唇角",
+        "reply_chars": 14,
+        "energy": 22.0
+      },
+      {
+        "round": 9,
+        "kind": "normal",
+        "feature": "hostile_tone",
+        "tags": [
+          "hostile_high_energy",
+          "amnesia"
+        ],
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_tokens": 10,
+        "delay": 1.74,
+        "finish": "length",
+        "reply": "*突然转身，目光直视着你，",
+        "reply_chars": 13,
+        "energy": 9.0
+      },
+      {
+        "round": 10,
+        "kind": "low_probe",
+        "feature": "neutral",
+        "tags": [
+          "trauma",
+          "amnesia"
+        ],
+        "temperature": 1.2,
+        "top_p": 0.5,
+        "max_tokens": 10,
+        "delay": 2.69,
+        "finish": "length",
+        "reply": "*指尖轻轻摩挲着发梢，声音",
+        "reply_chars": 13,
+        "energy": 9.0
+      },
+      {
+        "round": 11,
+        "kind": "normal",
+        "feature": "apology_tone",
+        "tags": [
+          "trauma",
+          "amnesia"
+        ],
+        "temperature": 1.2,
+        "top_p": 0.5,
+        "max_tokens": 10,
+        "delay": 1.53,
+        "finish": "length",
+        "reply": "*停下脚步，转身望向你，眼神",
+        "reply_chars": 14,
+        "energy": 1.0
+      },
+      {
+        "round": 12,
+        "kind": "normal",
+        "feature": "memory_topic",
+        "tags": [
+          "amnesia",
+          "trauma"
+        ],
+        "temperature": 1.2,
+        "top_p": 0.5,
+        "max_tokens": 10,
+        "delay": 2.16,
+        "finish": "length",
+        "reply": "*轻轻抬手，指尖在空中划过",
+        "reply_chars": 13,
+        "energy": -6.0
+      }
+    ]
+  }
+}

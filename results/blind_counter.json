@@ -1,0 +1,143 @@
+{
+  "n": 15,
+  "consistent": 14,
+  "correct_among_consistent": 5,
+  "accuracy_consistent": 0.357,
+  "out": [
+    {
+      "i": 1,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    },
+    {
+      "i": 2,
+      "a1": "A",
+      "a2": "B",
+      "content1": "true",
+      "content2": "true",
+      "consistent": true,
+      "correct": true
+    },
+    {
+      "i": 3,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    },
+    {
+      "i": 4,
+      "a1": "A",
+      "a2": "B",
+      "content1": "true",
+      "content2": "true",
+      "consistent": true,
+      "correct": true
+    },
+    {
+      "i": 5,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    },
+    {
+      "i": 6,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    },
+    {
+      "i": 7,
+      "a1": "A",
+      "a2": "B",
+      "content1": "true",
+      "content2": "true",
+      "consistent": true,
+      "correct": true
+    },
+    {
+      "i": 8,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    },
+    {
+      "i": 9,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    },
+    {
+      "i": 10,
+      "a1": "A",
+      "a2": "B",
+      "content1": "true",
+      "content2": "true",
+      "consistent": true,
+      "correct": true
+    },
+    {
+      "i": 11,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    },
+    {
+      "i": 12,
+      "a1": "A",
+      "a2": "A",
+      "content1": "true",
+      "content2": "wrong",
+      "consistent": false,
+      "correct": false
+    },
+    {
+      "i": 13,
+      "a1": "A",
+      "a2": "B",
+      "content1": "true",
+      "content2": "true",
+      "consistent": true,
+      "correct": true
+    },
+    {
+      "i": 14,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    },
+    {
+      "i": 15,
+      "a1": "B",
+      "a2": "A",
+      "content1": "wrong",
+      "content2": "wrong",
+      "consistent": true,
+      "correct": false
+    }
+  ]
+}

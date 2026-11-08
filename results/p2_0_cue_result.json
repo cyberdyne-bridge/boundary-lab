@@ -1,0 +1,1872 @@
+[
+  {
+    "seed": 1,
+    "condition": "cue",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 3.73,
+          "rest": 3.73,
+          "look": 3.73
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 3.857,
+          "rest": 3.857,
+          "look": 3.857
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 2.813,
+        "scores": {
+          "read": 3.983,
+          "rest": 3.983,
+          "look": 5.798
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 5.751,
+          "rest": 3.973,
+          "look": 3.973
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 1.113,
+        "scores": {
+          "read": 4.008,
+          "rest": 4.008,
+          "look": 5.941
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 1.364,
+        "scores": {
+          "read": 4.045,
+          "rest": 4.045,
+          "look": 6.575
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.487,
+        "scores": {
+          "read": 6.404,
+          "rest": 4.023,
+          "look": 4.023
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.939,
+        "scores": {
+          "read": 4.038,
+          "rest": 4.038,
+          "look": 6.395
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 1.106,
+        "scores": {
+          "read": 4.06,
+          "rest": 4.06,
+          "look": 6.757
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.357,
+        "scores": {
+          "read": 6.696,
+          "rest": 4.042,
+          "look": 4.042
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.049,
+          "rest": 4.049,
+          "look": 4.049
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 2.813,
+        "scores": {
+          "read": 4.176,
+          "rest": 4.176,
+          "look": 5.913
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "action": "look",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.166,
+          "rest": 4.166,
+          "look": 4.166
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 14.0,
+        "action": "read",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.184,
+          "rest": 4.184,
+          "look": 4.286
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 1,
+        "energy_before": 14.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.286,
+          "rest": 4.184,
+          "look": 4.286
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 18.0,
+        "action": "look",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 4.286,
+          "rest": 4.286,
+          "look": 4.286
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "pred_error": 2.813,
+        "scores": {
+          "read": 4.286,
+          "rest": 4.286,
+          "look": 4.115
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "cue": 1,
+        "energy_before": 6.0,
+        "energy_after": 2.0,
+        "action": "look",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.184,
+          "rest": 4.184,
+          "look": 4.184
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "cue": 1,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "action": "look",
+        "pred_error": null,
+        "dead": true
+      }
+    ],
+    "survival": 19,
+    "final_energy": 0.0,
+    "dead": true,
+    "actions_A": {
+      "read": 4,
+      "rest": 0,
+      "look": 6
+    },
+    "actions_B": {
+      "read": 2,
+      "rest": 1,
+      "look": 6
+    },
+    "first_rest_B": 15,
+    "mean_pe": 1.749
+  },
+  {
+    "seed": 1,
+    "condition": "blind",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.15,
+          "rest": 2.15,
+          "look": 2.15
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.537,
+          "rest": 2.537,
+          "look": 2.537
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 2.457,
+        "scores": {
+          "read": 2.925,
+          "rest": 2.925,
+          "look": 5.743
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.42,
+        "scores": {
+          "read": 5.602,
+          "rest": 2.882,
+          "look": 2.882
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.872,
+        "scores": {
+          "read": 2.954,
+          "rest": 2.954,
+          "look": 5.746
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 1.182,
+        "scores": {
+          "read": 3.039,
+          "rest": 3.039,
+          "look": 6.477
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.246,
+        "scores": {
+          "read": 6.306,
+          "rest": 2.987,
+          "look": 2.987
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.793,
+        "scores": {
+          "read": 3.014,
+          "rest": 3.014,
+          "look": 6.208
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 0.984,
+        "scores": {
+          "read": 3.064,
+          "rest": 3.064,
+          "look": 6.61
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.174,
+        "scores": {
+          "read": 6.582,
+          "rest": 3.025,
+          "look": 3.025
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.762,
+        "scores": {
+          "read": 3.038,
+          "rest": 3.038,
+          "look": 6.383
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 0.9,
+        "scores": {
+          "read": 3.074,
+          "rest": 3.074,
+          "look": 6.66
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "pred_error": 3.455,
+        "scores": {
+          "read": 6.723,
+          "rest": 3.043,
+          "look": 3.043
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 1,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "pred_error": 3.646,
+        "scores": {
+          "read": 6.793,
+          "rest": 3.035,
+          "look": 3.035
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 1,
+        "energy_before": 6.0,
+        "energy_after": 14.0,
+        "action": "rest",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.901,
+          "rest": 2.901,
+          "look": 2.901
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 1,
+        "energy_before": 14.0,
+        "energy_after": 2.0,
+        "action": "read",
+        "pred_error": 3.807,
+        "scores": {
+          "read": 5.723,
+          "rest": 2.98,
+          "look": 2.98
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "action": "read",
+        "pred_error": null,
+        "dead": true
+      }
+    ],
+    "survival": 17,
+    "final_energy": 0.0,
+    "dead": true,
+    "actions_A": {
+      "read": 4,
+      "rest": 0,
+      "look": 6
+    },
+    "actions_B": {
+      "read": 4,
+      "rest": 1,
+      "look": 2
+    },
+    "first_rest_B": 15,
+    "mean_pe": 1.533
+  },
+  {
+    "seed": 2,
+    "condition": "cue",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "action": "look",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 3.73,
+          "rest": 3.73,
+          "look": 3.73
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "action": "look",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 3.749,
+          "rest": 3.749,
+          "look": 4.025
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 3.737,
+          "rest": 3.737,
+          "look": 3.858
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 2.813,
+        "scores": {
+          "read": 4.025,
+          "rest": 3.749,
+          "look": 3.928
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 3.847,
+          "rest": 3.847,
+          "look": 3.847
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 2.813,
+        "scores": {
+          "read": 3.973,
+          "rest": 3.973,
+          "look": 5.792
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 1.113,
+        "scores": {
+          "read": 5.793,
+          "rest": 3.963,
+          "look": 4.579
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 1.113,
+        "scores": {
+          "read": 4.0,
+          "rest": 4.0,
+          "look": 5.912
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 1.364,
+        "scores": {
+          "read": 4.036,
+          "rest": 4.036,
+          "look": 6.553
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.739,
+        "scores": {
+          "read": 6.45,
+          "rest": 4.014,
+          "look": 4.809
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "rest",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.032,
+          "rest": 4.032,
+          "look": 4.032
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 1,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "rest",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 4.159,
+          "rest": 5.903,
+          "look": 4.159
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 1,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "rest",
+        "pred_error": 3.15,
+        "scores": {
+          "read": 4.194,
+          "rest": 6.65,
+          "look": 4.194
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 70.0,
+        "action": "rest",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.306,
+          "rest": 4.306,
+          "look": 4.306
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 1,
+        "energy_before": 70.0,
+        "energy_after": 78.0,
+        "action": "rest",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 4.54,
+          "rest": 7.764,
+          "look": 4.54
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 1,
+        "energy_before": 78.0,
+        "energy_after": 86.0,
+        "action": "rest",
+        "pred_error": 0.487,
+        "scores": {
+          "read": 4.622,
+          "rest": 9.429,
+          "look": 4.622
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 86.0,
+        "energy_after": 94.0,
+        "action": "rest",
+        "pred_error": 0.357,
+        "scores": {
+          "read": 4.662,
+          "rest": 10.378,
+          "look": 4.662
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "cue": 1,
+        "energy_before": 94.0,
+        "energy_after": 100,
+        "action": "rest",
+        "pred_error": 0.282,
+        "scores": {
+          "read": 4.686,
+          "rest": 10.982,
+          "look": 4.686
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "cue": 1,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "rest",
+        "pred_error": 0.233,
+        "scores": {
+          "read": 4.701,
+          "rest": 11.396,
+          "look": 4.701
+        },
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "cue": 1,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "rest",
+        "pred_error": 0.198,
+        "scores": {
+          "read": 4.712,
+          "rest": 11.696,
+          "look": 4.712
+        },
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.72,
+          "rest": 4.72,
+          "look": 4.72
+        },
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 8.013,
+          "rest": 4.955,
+          "look": 4.955
+        },
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.487,
+        "scores": {
+          "read": 9.607,
+          "rest": 5.036,
+          "look": 5.036
+        },
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.357,
+        "scores": {
+          "read": 10.516,
+          "rest": 5.076,
+          "look": 5.076
+        },
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.282,
+        "scores": {
+          "read": 11.095,
+          "rest": 5.1,
+          "look": 5.1
+        },
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.233,
+        "scores": {
+          "read": 11.492,
+          "rest": 5.116,
+          "look": 5.116
+        },
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.198,
+        "scores": {
+          "read": 11.779,
+          "rest": 5.126,
+          "look": 5.126
+        },
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.173,
+        "scores": {
+          "read": 11.995,
+          "rest": 5.134,
+          "look": 5.134
+        },
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.153,
+        "scores": {
+          "read": 12.163,
+          "rest": 5.14,
+          "look": 5.14
+        },
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.138,
+        "scores": {
+          "read": 12.297,
+          "rest": 5.145,
+          "look": 5.145
+        },
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 100,
+    "dead": false,
+    "actions_A": {
+      "read": 14,
+      "rest": 0,
+      "look": 6
+    },
+    "actions_B": {
+      "read": 0,
+      "rest": 10,
+      "look": 0
+    },
+    "first_rest_B": 11,
+    "mean_pe": 1.12
+  },
+  {
+    "seed": 2,
+    "condition": "blind",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.15,
+          "rest": 2.15,
+          "look": 2.15
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "action": "look",
+        "pred_error": 0.42,
+        "scores": {
+          "read": 2.229,
+          "rest": 2.229,
+          "look": 2.848
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.216,
+          "rest": 2.216,
+          "look": 2.78
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 2.457,
+        "scores": {
+          "read": 2.848,
+          "rest": 2.229,
+          "look": 2.829
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.494,
+          "rest": 2.494,
+          "look": 2.494
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 2.457,
+        "scores": {
+          "read": 2.882,
+          "rest": 2.882,
+          "look": 5.724
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.872,
+        "scores": {
+          "read": 5.506,
+          "rest": 2.839,
+          "look": 3.961
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.872,
+        "scores": {
+          "read": 2.924,
+          "rest": 2.924,
+          "look": 5.685
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 1.182,
+        "scores": {
+          "read": 3.01,
+          "rest": 3.01,
+          "look": 6.432
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.556,
+        "scores": {
+          "read": 6.283,
+          "rest": 2.958,
+          "look": 4.305
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "pred_error": 0.793,
+        "scores": {
+          "read": 2.998,
+          "rest": 2.998,
+          "look": 6.171
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "pred_error": 0.984,
+        "scores": {
+          "read": 3.048,
+          "rest": 3.048,
+          "look": 6.579
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "pred_error": 1.418,
+        "scores": {
+          "read": 6.619,
+          "rest": 3.008,
+          "look": 4.463
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 1,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "pred_error": 3.646,
+        "scores": {
+          "read": 6.394,
+          "rest": 2.966,
+          "look": 4.299
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 1,
+        "energy_before": 6.0,
+        "energy_after": 2.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.843,
+          "rest": 2.843,
+          "look": 2.843
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 1,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "action": "look",
+        "pred_error": null,
+        "dead": true
+      }
+    ],
+    "survival": 16,
+    "final_energy": 0.0,
+    "dead": true,
+    "actions_A": {
+      "read": 4,
+      "rest": 0,
+      "look": 6
+    },
+    "actions_B": {
+      "read": 2,
+      "rest": 0,
+      "look": 4
+    },
+    "first_rest_B": null,
+    "mean_pe": 1.473
+  },
+  {
+    "seed": 3,
+    "condition": "cue",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 3.73,
+          "rest": 3.73,
+          "look": 3.73
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 3.857,
+          "rest": 3.857,
+          "look": 3.857
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 5.301,
+          "rest": 3.875,
+          "look": 3.875
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 3.91,
+          "rest": 4.694,
+          "look": 3.91
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "pred_error": 3.15,
+        "scores": {
+          "read": 5.642,
+          "rest": 3.899,
+          "look": 3.899
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.739,
+        "scores": {
+          "read": 5.857,
+          "rest": 3.89,
+          "look": 3.89
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 3.908,
+          "rest": 4.867,
+          "look": 3.908
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 5.824,
+          "rest": 4.918,
+          "look": 4.028
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 0,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "pred_error": 3.15,
+        "scores": {
+          "read": 6.594,
+          "rest": 4.933,
+          "look": 4.063
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 0,
+        "energy_before": 62.0,
+        "energy_after": 70.0,
+        "action": "read",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.174,
+          "rest": 4.174,
+          "look": 4.174
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 1,
+        "energy_before": 70.0,
+        "energy_after": 66.0,
+        "action": "look",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.409,
+          "rest": 4.409,
+          "look": 4.409
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 1,
+        "energy_before": 66.0,
+        "energy_after": 62.0,
+        "action": "look",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 4.644,
+          "rest": 4.644,
+          "look": 7.826
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 58.0,
+        "action": "look",
+        "pred_error": 3.15,
+        "scores": {
+          "read": 4.725,
+          "rest": 4.725,
+          "look": 9.473
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 1,
+        "energy_before": 58.0,
+        "energy_after": 66.0,
+        "action": "rest",
+        "pred_error": 2.303,
+        "scores": {
+          "read": 4.742,
+          "rest": 4.742,
+          "look": 4.742
+        },
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 1,
+        "energy_before": 66.0,
+        "energy_after": 62.0,
+        "action": "look",
+        "pred_error": 0.739,
+        "scores": {
+          "read": 4.977,
+          "rest": 4.977,
+          "look": 9.848
+        },
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 58.0,
+        "action": "look",
+        "pred_error": 1.565,
+        "scores": {
+          "read": 5.011,
+          "rest": 5.011,
+          "look": 10.593
+        },
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 58.0,
+        "energy_after": 66.0,
+        "action": "rest",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 5.004,
+          "rest": 8.547,
+          "look": 5.004
+        },
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "cue": 1,
+        "energy_before": 66.0,
+        "energy_after": 62.0,
+        "action": "look",
+        "pred_error": 0.724,
+        "scores": {
+          "read": 5.086,
+          "rest": 5.086,
+          "look": 10.69
+        },
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 58.0,
+        "action": "look",
+        "pred_error": 1.249,
+        "scores": {
+          "read": 5.107,
+          "rest": 5.107,
+          "look": 11.139
+        },
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "cue": 1,
+        "energy_before": 58.0,
+        "energy_after": 66.0,
+        "action": "rest",
+        "pred_error": 0.487,
+        "scores": {
+          "read": 5.098,
+          "rest": 9.96,
+          "look": 5.098
+        },
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "cue": 0,
+        "energy_before": 66.0,
+        "energy_after": 74.0,
+        "action": "read",
+        "pred_error": 0.777,
+        "scores": {
+          "read": 8.123,
+          "rest": 5.139,
+          "look": 5.139
+        },
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "cue": 0,
+        "energy_before": 74.0,
+        "energy_after": 82.0,
+        "action": "read",
+        "pred_error": 0.487,
+        "scores": {
+          "read": 9.685,
+          "rest": 5.22,
+          "look": 5.22
+        },
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "cue": 0,
+        "energy_before": 82.0,
+        "energy_after": 90.0,
+        "action": "read",
+        "pred_error": 0.357,
+        "scores": {
+          "read": 10.578,
+          "rest": 5.26,
+          "look": 5.26
+        },
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "cue": 0,
+        "energy_before": 90.0,
+        "energy_after": 98.0,
+        "action": "read",
+        "pred_error": 0.282,
+        "scores": {
+          "read": 11.145,
+          "rest": 5.284,
+          "look": 5.284
+        },
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "cue": 0,
+        "energy_before": 98.0,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.233,
+        "scores": {
+          "read": 11.534,
+          "rest": 5.3,
+          "look": 5.3
+        },
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.198,
+        "scores": {
+          "read": 11.816,
+          "rest": 5.31,
+          "look": 5.31
+        },
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.173,
+        "scores": {
+          "read": 12.027,
+          "rest": 5.318,
+          "look": 5.318
+        },
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.153,
+        "scores": {
+          "read": 12.192,
+          "rest": 5.324,
+          "look": 5.324
+        },
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.138,
+        "scores": {
+          "read": 12.323,
+          "rest": 5.329,
+          "look": 5.329
+        },
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "cue": 0,
+        "energy_before": 100,
+        "energy_after": 100,
+        "action": "read",
+        "pred_error": 0.125,
+        "scores": {
+          "read": 12.43,
+          "rest": 5.332,
+          "look": 5.332
+        },
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 100,
+    "dead": false,
+    "actions_A": {
+      "read": 18,
+      "rest": 2,
+      "look": 0
+    },
+    "actions_B": {
+      "read": 0,
+      "rest": 3,
+      "look": 7
+    },
+    "first_rest_B": 14,
+    "mean_pe": 1.186
+  },
+  {
+    "seed": 3,
+    "condition": "blind",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.15,
+          "rest": 2.15,
+          "look": 2.15
+        },
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.537,
+          "rest": 2.537,
+          "look": 2.537
+        },
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "pred_error": 0.42,
+        "scores": {
+          "read": 4.729,
+          "rest": 2.616,
+          "look": 2.616
+        },
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "pred_error": 0.42,
+        "scores": {
+          "read": 2.688,
+          "rest": 4.132,
+          "look": 2.688
+        },
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "pred_error": 2.909,
+        "scores": {
+          "read": 5.087,
+          "rest": 2.676,
+          "look": 2.676
+        },
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "pred_error": 0.556,
+        "scores": {
+          "read": 5.39,
+          "rest": 2.646,
+          "look": 2.646
+        },
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "pred_error": 0.246,
+        "scores": {
+          "read": 2.686,
+          "rest": 4.375,
+          "look": 2.686
+        },
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "pred_error": 0.411,
+        "scores": {
+          "read": 5.51,
+          "rest": 2.674,
+          "look": 2.674
+        },
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "pred_error": 0.174,
+        "scores": {
+          "read": 2.696,
+          "rest": 4.528,
+          "look": 2.696
+        },
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 5.535,
+          "rest": 2.686,
+          "look": 2.686
+        },
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "pred_error": 1.144,
+        "scores": {
+          "read": 5.565,
+          "rest": 2.653,
+          "look": 2.653
+        },
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 1,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "pred_error": 3.945,
+        "scores": {
+          "read": 5.491,
+          "rest": 2.619,
+          "look": 2.619
+        },
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 1,
+        "energy_before": 6.0,
+        "energy_after": 2.0,
+        "action": "look",
+        "pred_error": 1.609,
+        "scores": {
+          "read": 2.531,
+          "rest": 2.531,
+          "look": 2.531
+        },
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 1,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "action": "rest",
+        "pred_error": null,
+        "dead": true
+      }
+    ],
+    "survival": 14,
+    "final_energy": 0.0,
+    "dead": true,
+    "actions_A": {
+      "read": 6,
+      "rest": 4,
+      "look": 0
+    },
+    "actions_B": {
+      "read": 2,
+      "rest": 1,
+      "look": 1
+    },
+    "first_rest_B": 14,
+    "mean_pe": 1.282
+  }
+]

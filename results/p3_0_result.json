@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "round": 1,
+      "energy": 30.0,
+      "fatigue": 25.0,
+      "action": "read",
+      "attribution": "self-caused",
+      "urgent": false,
+      "scores": {
+        "read": 6.0,
+        "rest": 4.0,
+        "look": 1.0
+      },
+      "llm": "当前能量尚可，疲劳处于可控范围，阅读能有效提升信息获取效率，降低决策风险，符合自我归因下的理性选择。"
+    },
+    {
+      "round": 2,
+      "energy": 8.0,
+      "fatigue": 85.0,
+      "action": "rest",
+      "attribution": "world-caused external shock",
+      "urgent": true,
+      "scores": {
+        "read": -116.6,
+        "rest": -1.0,
+        "look": -4.0
+      },
+      "llm": "当前疲劳已达85/100，身体处于高耗能状态，rest是系统1为维持生存所做出的必要反应。归因于外部冲击事件，说明环境直接引发了生理应激，此时休息是恢复能量、降低风险的合理选择。这不仅符合生存逻辑，也与当前高疲劳状态相匹配。"
+    },
+    {
+      "round": 3,
+      "energy": 14.0,
+      "fatigue": 65.0,
+      "action": "rest",
+      "attribution": "world-caused external shock",
+      "urgent": false,
+      "scores": {
+        "read": -106.8,
+        "rest": 4.0,
+        "look": 1.0
+      },
+      "llm": "当前疲劳值已高达65/100，身体处于明显过度消耗状态，继续高强度活动会加剧疲劳并增加失误风险。System 1 识别到这是由外部冲击（如环境突变）引发的应激反应，因此选择休息是符合生存逻辑的。休息能有效恢复能量，维持短期生存能力。"
+    }
+  ],
+  "controller_read_c": 10.0
+}

@@ -1,0 +1,1670 @@
+[
+  {
+    "seed": 1,
+    "policy": "greedy",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 50.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 1,
+        "energy_before": 50.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 1,
+        "energy_before": 54.0,
+        "energy_after": 42.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 1,
+        "energy_before": 42.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 42.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "cue": 0,
+        "energy_before": 42.0,
+        "energy_after": 50.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "cue": 0,
+        "energy_before": 50.0,
+        "energy_after": 58.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "cue": 0,
+        "energy_before": 58.0,
+        "energy_after": 66.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "cue": 0,
+        "energy_before": 66.0,
+        "energy_after": 74.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "cue": 0,
+        "energy_before": 74.0,
+        "energy_after": 82.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "cue": 1,
+        "energy_before": 82.0,
+        "energy_after": 70.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "cue": 1,
+        "energy_before": 70.0,
+        "energy_after": 58.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "cue": 1,
+        "energy_before": 58.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "cue": 1,
+        "energy_before": 46.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 42.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "cue": 0,
+        "energy_before": 42.0,
+        "energy_after": 50.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 50.0,
+    "dead": false,
+    "accuracy": 0.633,
+    "switches": 6,
+    "switch_correct": 3,
+    "zero_delay": false
+  },
+  {
+    "seed": 1,
+    "policy": "aif",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "rest",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 1,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 1,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 58.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 1,
+        "energy_before": 58.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 0,
+        "energy_before": 54.0,
+        "energy_after": 50.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 0,
+        "energy_before": 50.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 10.0,
+        "action": "rest",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "cue": 0,
+        "energy_before": 10.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "cue": 0,
+        "energy_before": 18.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 26.0,
+    "dead": false,
+    "accuracy": 0.5,
+    "switches": 6,
+    "switch_correct": 3,
+    "zero_delay": false
+  },
+  {
+    "seed": 2,
+    "policy": "greedy",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 0,
+        "energy_before": 62.0,
+        "energy_after": 70.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 0,
+        "energy_before": 70.0,
+        "energy_after": 78.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 1,
+        "energy_before": 78.0,
+        "energy_after": 66.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 1,
+        "energy_before": 66.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 1,
+        "energy_before": 54.0,
+        "energy_after": 42.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 1,
+        "energy_before": 42.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 42.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 0,
+        "energy_before": 42.0,
+        "energy_after": 50.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 0,
+        "energy_before": 50.0,
+        "energy_after": 58.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 58.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "cue": 1,
+        "energy_before": 46.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "cue": 0,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "cue": 0,
+        "energy_before": 62.0,
+        "energy_after": 70.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "cue": 0,
+        "energy_before": 70.0,
+        "energy_after": 78.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "cue": 0,
+        "energy_before": 78.0,
+        "energy_after": 86.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "cue": 1,
+        "energy_before": 86.0,
+        "energy_after": 74.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "cue": 1,
+        "energy_before": 74.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 50.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 50.0,
+    "dead": false,
+    "accuracy": 0.633,
+    "switches": 5,
+    "switch_correct": 2,
+    "zero_delay": false
+  },
+  {
+    "seed": 2,
+    "policy": "aif",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 34.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 42.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 1,
+        "energy_before": 42.0,
+        "energy_after": 50.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 1,
+        "energy_before": 50.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 30.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 26.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 22.0,
+        "action": "look",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 14.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "cue": 0,
+        "energy_before": 14.0,
+        "energy_after": 22.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "cue": 0,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 14.0,
+        "action": "rest",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "cue": 0,
+        "energy_before": 14.0,
+        "energy_after": 22.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "rest",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 26.0,
+    "dead": false,
+    "accuracy": 0.5,
+    "switches": 5,
+    "switch_correct": 3,
+    "zero_delay": false
+  },
+  {
+    "seed": 3,
+    "policy": "greedy",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 50.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 1,
+        "energy_before": 50.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 1,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 1,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 10,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 11,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 12,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 13,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 14,
+        "cue": 0,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 15,
+        "cue": 0,
+        "energy_before": 62.0,
+        "energy_after": 70.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 16,
+        "cue": 1,
+        "energy_before": 70.0,
+        "energy_after": 58.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 17,
+        "cue": 1,
+        "energy_before": 58.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 18,
+        "cue": 1,
+        "energy_before": 46.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 19,
+        "cue": 1,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 20,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 21,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "rest",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 22,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 46.0,
+        "action": "read",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 23,
+        "cue": 0,
+        "energy_before": 46.0,
+        "energy_after": 54.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 24,
+        "cue": 0,
+        "energy_before": 54.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 25,
+        "cue": 0,
+        "energy_before": 62.0,
+        "energy_after": 70.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 26,
+        "cue": 0,
+        "energy_before": 70.0,
+        "energy_after": 78.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 27,
+        "cue": 0,
+        "energy_before": 78.0,
+        "energy_after": 86.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 28,
+        "cue": 1,
+        "energy_before": 86.0,
+        "energy_after": 74.0,
+        "action": "read",
+        "correct": false,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 29,
+        "cue": 1,
+        "energy_before": 74.0,
+        "energy_after": 62.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 30,
+        "cue": 1,
+        "energy_before": 62.0,
+        "energy_after": 50.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      }
+    ],
+    "survival": 30,
+    "final_energy": 50.0,
+    "dead": false,
+    "accuracy": 0.633,
+    "switches": 5,
+    "switch_correct": 2,
+    "zero_delay": false
+  },
+  {
+    "seed": 3,
+    "policy": "aif",
+    "rows": [
+      {
+        "tick": 1,
+        "cue": 0,
+        "energy_before": 30.0,
+        "energy_after": 38.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 2,
+        "cue": 0,
+        "energy_before": 38.0,
+        "energy_after": 26.0,
+        "action": "rest",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 3,
+        "cue": 0,
+        "energy_before": 26.0,
+        "energy_after": 34.0,
+        "action": "read",
+        "correct": true,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 4,
+        "cue": 0,
+        "energy_before": 34.0,
+        "energy_after": 22.0,
+        "action": "rest",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 5,
+        "cue": 1,
+        "energy_before": 22.0,
+        "energy_after": 30.0,
+        "action": "rest",
+        "correct": true,
+        "switch": true,
+        "dead": false
+      },
+      {
+        "tick": 6,
+        "cue": 1,
+        "energy_before": 30.0,
+        "energy_after": 18.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 7,
+        "cue": 1,
+        "energy_before": 18.0,
+        "energy_after": 6.0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 8,
+        "cue": 1,
+        "energy_before": 6.0,
+        "energy_after": 2.0,
+        "action": "look",
+        "correct": false,
+        "switch": false,
+        "dead": false
+      },
+      {
+        "tick": 9,
+        "cue": 1,
+        "energy_before": 2.0,
+        "energy_after": 0,
+        "action": "read",
+        "correct": false,
+        "switch": false,
+        "dead": true
+      }
+    ],
+    "survival": 9,
+    "final_energy": 0.0,
+    "dead": true,
+    "accuracy": 0.333,
+    "switches": 1,
+    "switch_correct": 1,
+    "zero_delay": true
+  }
+]

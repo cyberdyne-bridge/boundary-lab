@@ -1,0 +1,75 @@
+{
+  "seed": 2,
+  "history": [
+    {
+      "gen": 1,
+      "best_fit": 5.5,
+      "best": {
+        "tick": 11,
+        "energy": 0.0,
+        "action": "rest"
+      },
+      "mean_fit": 3.6
+    },
+    {
+      "gen": 2,
+      "best_fit": 142.0,
+      "best": {
+        "tick": 30,
+        "energy": 27.0,
+        "action": "rest"
+      },
+      "mean_fit": 18.05
+    },
+    {
+      "gen": 3,
+      "best_fit": 142.0,
+      "best": {
+        "tick": 30,
+        "energy": 27.0,
+        "action": "rest"
+      },
+      "mean_fit": 73.35
+    },
+    {
+      "gen": 4,
+      "best_fit": 142.0,
+      "best": {
+        "tick": 30,
+        "energy": 27.0,
+        "action": "rest"
+      },
+      "mean_fit": 114.2
+    },
+    {
+      "gen": 5,
+      "best_fit": 142.0,
+      "best": {
+        "tick": 30,
+        "energy": 27.0,
+        "action": "rest"
+      },
+      "mean_fit": 128.15
+    },
+    {
+      "gen": 6,
+      "best_fit": 142.0,
+      "best": {
+        "tick": 30,
+        "energy": 27.0,
+        "action": "rest"
+      },
+      "mean_fit": 114.6
+    }
+  ],
+  "best": {
+    "gen": 6,
+    "best_fit": 142.0,
+    "best": {
+      "tick": 30,
+      "energy": 27.0,
+      "action": "rest"
+    },
+    "mean_fit": 114.6
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "full_acc": 0.853,
+    "masked_acc": 0.844,
+    "world_acc": 0.9,
+    "n": 360,
+    "seed": 1,
+    "train_n": 840,
+    "test_n": 360,
+    "full_table": 102,
+    "masked_table": 6,
+    "world_table": 16
+  },
+  {
+    "full_acc": 0.861,
+    "masked_acc": 0.858,
+    "world_acc": 0.872,
+    "n": 360,
+    "seed": 2,
+    "train_n": 788,
+    "test_n": 360,
+    "full_table": 109,
+    "masked_table": 6,
+    "world_table": 17
+  },
+  {
+    "full_acc": 0.86,
+    "masked_acc": 0.854,
+    "world_acc": 0.902,
+    "n": 308,
+    "seed": 3,
+    "train_n": 761,
+    "test_n": 308,
+    "full_table": 108,
+    "masked_table": 6,
+    "world_table": 16
+  }
+]
