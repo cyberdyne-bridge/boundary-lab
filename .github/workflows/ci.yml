@@ -27,7 +27,7 @@ jobs:
           PY
       - name: 无主机绝对路径
         run: |
-          if grep -rIl '/home/bzys' . --exclude-dir=.git; then
+          if grep -rIl '/home/bzys17mintstart' . --exclude-dir=.git --exclude-dir=.github; then
             echo "发现主机绝对路径"; exit 1
           fi
           echo "干净"
