@@ -155,9 +155,31 @@ docs/          framework.dot / .svg / .png
 本仓不含模型权重、不含运行时数据库、不含真实对话原文
 ```
 
+## 这条线接到过「桥」上
+
+CPNC 的旧名就是 **Cyberdyne Bridge（桥）**（见其 `NAMING.md`）。2026-10-22，这边的 P2–P4 成果
+以**只读车厢**的形式接进了桥的 MC Agent：
+
+```text
+请示（先当身体，不先当大脑；只加新车厢，不改老车厢）
+  → 批复（允许只读：任务快照 / 账本 / 思维链 / 轨迹 / 仲裁 / 体检输出）
+  → 外挂/自我模型/补丁.py
+  → 只写 logs/自我模型.jsonl，不写任务栈、不接管动作、不做 veto
+  → live 验证：初始 14 步 → 最终 22 步，10 次计划修订（任务 1792738840）
+```
+
+它现在在 CPNC 主仓里：
+[`agents/cyberdyne/plugins/自我模型/`](https://github.com/cyberdyne-bridge/cyberdyne-bridge-agent-physical-protocol/tree/main/agents/cyberdyne/plugins/自我模型)
+（v0.2.1，1001 行，车厢 113，`可热拔: true`）。
+
+为什么值得单独记一笔：同一套 `predicted vs actual` 观测，既跑在 4B 聊天实验里，
+也能挂在真实的 MC 任务栈上——**通用的是框架，不是模型**。
+而它坚持"只读、不 veto"，正好和 P4 的结论对齐：**观测与决策必须分离**。
+
 ## 相关
 
 - 具体实现：[`cyberdyne-bridge/boundary-agent`](https://github.com/cyberdyne-bridge/boundary-agent)（岸 这个 agent 本身）
+- 落地的车厢：[CPNC `agents/cyberdyne/plugins/自我模型/`](https://github.com/cyberdyne-bridge/cyberdyne-bridge-agent-physical-protocol/tree/main/agents/cyberdyne/plugins/自我模型)
 - 原始报告对外版：[QwenLM/Qwen3 Discussions #1923](https://github.com/QwenLM/Qwen3/discussions/1923)
 
 ## 许可
